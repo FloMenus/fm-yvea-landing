@@ -1,0 +1,66 @@
+.routeA_section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 12px;
+}
+
+.routeA_section_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.routeA_section_paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.routeA_section_steps_timeline {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.routeA_section_steps_timeline_line {
+  width: 95%;
+  position: absolute;
+  z-index: -1;
+  right: 2%;
+  top: 25%;
+}
+
+.routeA_section_steps {
+  margin-top: 56px;
+}
+
+.routeA_section_step_squares {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1079px;
+}
+
+.routeA_section_step_square {
+  width: 270px;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #02298c 0%, #0168b2 100%);
+  color: #fff;
+  padding: 24px;
+}
+
+.routeA_section_step_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.routeA_section_step_paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  width: 182px;
+}
+
+.routeA_section_step_paragraph_list {
+  list-style: inside;
+}

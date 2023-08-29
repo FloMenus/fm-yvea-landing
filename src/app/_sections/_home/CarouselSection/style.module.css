@@ -1,0 +1,21 @@
+.carousel_container {
+  background-color: #1b019b;
+  height: 240px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.carousel_title {
+  font-size: 20px;
+  color: #dce6ff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.carousel_wrapper {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}

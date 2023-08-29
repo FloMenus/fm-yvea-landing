@@ -1,0 +1,12 @@
+.dropdown {
+  background-color: white;
+  z-index: 2;
+  /* position: absolute; */
+  /* put it at the bottom his parent */
+  bottom: 100px;
+  display: none;
+}
+
+.dropdown:hover {
+  display: block;
+}

@@ -1,0 +1,28 @@
+.support_header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.support_header_title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.support_header_title span {
+  background: linear-gradient(103deg, #1b019b 0%, #72afe1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.support_header_quote {
+  margin-top: 24px;
+}
+
+.support_header_quote_text {
+  color: #0f005a;
+  font-style: italic;
+  font-weight: 600;
+}

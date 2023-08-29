@@ -1,0 +1,36 @@
+.objectives_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  height: 800px;
+  background-color: #f2f0ff;
+  z-index: 4;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.objective_title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.objective {
+  margin-bottom: 80px;
+}
+.objective_paragraph_and_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.objective_paragraph {
+  font-weight: 500;
+}
+.objective_img {
+  width: 300px;
+}
+.text_right {
+  text-align: end;
+}
+
+.objective_paragraph a {
+  text-decoration: none;
+  color: #012c9b;
+}
