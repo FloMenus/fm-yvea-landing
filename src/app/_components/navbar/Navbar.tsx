@@ -36,12 +36,16 @@ export default function Navbar() {
     <header className={`navbar ${isNavBarHidden ? "hidden" : ""}`}>
       <div className="navbar_container">
         <Link href="/">
-          <img className="logo" src="/medias/logo/logo_and_yvea.svg" />
+          <img
+            className="logo"
+            src="/medias/logo/logo_and_yvea.svg"
+            alt="logo"
+          />
         </Link>
         <nav className="links_container">
           {data.map((child) => (
             // @ts-ignore
-            <LinkElement>{child}</LinkElement>
+            <LinkElement key={child.id}>{child}</LinkElement>
           ))}
           <></>
         </nav>

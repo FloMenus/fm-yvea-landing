@@ -23,7 +23,7 @@ export default function CountriesSection() {
           </h4>
         </div>
         {countriesData.map((country) => (
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={3} key={country.name}>
             <div className="countries_section_country">
               <img
                 className="country_section_country_img"

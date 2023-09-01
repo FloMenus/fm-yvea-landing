@@ -83,7 +83,7 @@ export default function LinkElement({ children }: { children: LinkElement }) {
             >
               <ul className={styles.dropdown_content}>
                 {children.sublinks.map((child) => (
-                  <li className={styles.dropdown_item}>
+                  <li className={styles.dropdown_item} key={child.title}>
                     <Link href={child.url}>
                       <p className={styles.dropdown_item_title}>
                         {child.title}
@@ -115,6 +115,7 @@ export default function LinkElement({ children }: { children: LinkElement }) {
                         : null
                     }
                     className={styles.dropdown_item}
+                    key={child.title}
                   >
                     <p className={styles.dropdown_item_title}>{child.title}</p>
                   </li>

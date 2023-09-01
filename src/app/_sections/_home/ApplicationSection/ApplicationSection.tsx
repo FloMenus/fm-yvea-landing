@@ -86,7 +86,10 @@ export default function ApplicationSection() {
             }`}
           >
             {applicationData[counter].text.map((text) => (
-              <div className={`application_container_content_left_text`}>
+              <div
+                className={`application_container_content_left_text`}
+                key={text.title}
+              >
                 <h5 className="application_container_content_left_title">
                   {text.title}
                 </h5>

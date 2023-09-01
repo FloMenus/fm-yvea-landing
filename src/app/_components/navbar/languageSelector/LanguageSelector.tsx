@@ -22,7 +22,11 @@ export default function LanguageSelector() {
       onMouseOver={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img className={styles.flag} src={`/medias/countries/${country}.png/`} />
+      <img
+        className={styles.flag}
+        src={`/medias/countries/${country}.png/`}
+        alt="flag"
+      />
       {activated && (
         <div
           className={`${styles.dropdown} ${
@@ -34,6 +38,7 @@ export default function LanguageSelector() {
               <li
                 className={styles.dropdown_item}
                 onClick={() => setCountry(child.iso)}
+                key={child.title}
               >
                 <p className={styles.dropdown_item_title}>{child.title}</p>
               </li>
