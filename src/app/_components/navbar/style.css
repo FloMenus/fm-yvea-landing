@@ -52,13 +52,21 @@
   width: 34px;
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navbar {
     height: 60px;
-    padding: 0 12px;
+    padding: 0 8px;
+  }
+  .navbar_container {
+    justify-content: space-between;
+    gap: 4px;
   }
   .logo {
     height: 40px;
+    width: 40px;
+    object-fit: cover;
+
+    object-position: left;
   }
   .links_container {
     gap: 16px;

@@ -1,5 +1,5 @@
 .application_container {
-  height: 80vh;
+  height: 650px;
   background: linear-gradient(165deg, #02298c 0%, #0073c7 100%);
   display: flex;
   justify-content: space-between;
@@ -70,18 +70,6 @@ box-shadow: inset 0px 0px 44px 9px rgba(0,0,0,0.35); */
   transform: translate(0, -50%);
   box-shadow: 0px 4px 19px 1px rgba(0, 0, 0, 0.25);
 }
-/* .application_container_shadow_left {
-  height: 100%;
-  width: 1px;
-  -webkit-box-shadow: 0px 0px 41px 17px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 0px 41px 17px rgba(0, 0, 0, 0.36);
-}
-.application_container_shadow_right {
-  height: 100%;
-  width: 1px;
-  -webkit-box-shadow: 0px 0px 41px 17px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 0px 41px 17px rgba(0, 0, 0, 0.36);
-} */
 
 /* Animation */
 .transition_start_left {
@@ -96,7 +84,6 @@ box-shadow: inset 0px 0px 44px 9px rgba(0,0,0,0.35); */
 .transition_start_right {
   /* transform: translateX(100vw); */
   transition: all 0.5s ease-in-out;
-  /* make it stay at the same y-axis */
   transform: translate(100%, -50%);
 }
 .transition_end_right {
@@ -110,3 +97,46 @@ box-shadow: inset 0px 0px 44px 9px rgba(0,0,0,0.35); */
   top: 80px;
   display: none;
 } */
+
+@media screen and (max-width: 974px) {
+  .application_container_content {
+    width: 100%;
+    padding: 24px;
+    align-items: start;
+  }
+  .application_container_header {
+    height: 44px;
+    top: -22px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .application_container_header_title {
+    font-size: 16px;
+  }
+  .application_container_content_left {
+    margin-top: 24px;
+    width: 100%;
+    align-items: start;
+  }
+  .application_container_content_left_title {
+    font-size: 20px;
+  }
+  .application_container_content_left_paragraph {
+    font-size: 14px;
+  }
+
+  .application_container_content_img {
+    width: 95vw;
+    max-width: 530px;
+    /* put it in bottom center, without transform */
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  .transition_start_right {
+    transform: translate(100%, -100%);
+  }
+  .transition_end_right {
+    transform: translate(-50%, -100%);
+  }
+}

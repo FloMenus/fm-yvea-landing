@@ -64,3 +64,22 @@
 .routeA_section_step_paragraph_list {
   list-style: inside;
 }
+
+@media screen and (max-width: 974px) {
+  .routeA_section_steps_timeline {
+    display: none;
+  }
+  .routeA_section_step_squares {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .routeA_section_step_square {
+    width: 100%;
+  }
+  .routeA_section_step_paragraph {
+    width: 100%;
+  }
+  .routeA_section_step_paragraph_list {
+    width: 100%;
+  }
+}

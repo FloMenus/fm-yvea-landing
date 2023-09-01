@@ -1,0 +1,38 @@
+.politics {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.politics_title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 42px;
+}
+
+.politics_article {
+  margin-bottom: 34px;
+}
+
+.article_title {
+  font-size: 24px;
+  color: #1b019b;
+  margin-bottom: 18px;
+}
+
+.sub {
+  margin-left: 24px;
+}
+
+.sub .article_title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.politics_list {
+  list-style: inside;
+  margin-left: 20px;
+}
+span {
+  font-weight: 700;
+}

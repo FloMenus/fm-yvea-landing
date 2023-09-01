@@ -1,0 +1,35 @@
+.cgu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cgu_title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 42px;
+}
+
+.cgu_article {
+  margin-bottom: 34px;
+}
+
+.article_title {
+  font-size: 24px;
+  color: #1b019b;
+  margin-bottom: 18px;
+}
+
+.sub {
+  margin-left: 24px;
+}
+
+.sub .article_title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.cgu_list {
+  list-style: inside;
+  margin-left: 20px;
+}

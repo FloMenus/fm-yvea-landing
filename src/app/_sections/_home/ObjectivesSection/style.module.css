@@ -34,3 +34,28 @@
   text-decoration: none;
   color: #012c9b;
 }
+
+@media screen and (max-width: 1200px) {
+  .objectives_container {
+    height: 100%;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .objective_title {
+    text-align: start;
+    margin-bottom: 24px;
+  }
+  .objective_paragraph_and_img {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .objective_paragraph {
+    text-align: start;
+  }
+  .objective_img {
+    width: 144px;
+  }
+}

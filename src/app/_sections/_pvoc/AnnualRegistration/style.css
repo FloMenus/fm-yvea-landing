@@ -94,3 +94,22 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 974px) {
+  .annual_registration_title {
+    font-weight: 600;
+  }
+  .annual_registration {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .annual_registration_text {
+    width: 100%;
+  }
+  .arrow1 {
+    left: -99px;
+  }
+  .arrow2 {
+    right: -64px;
+  }
+}

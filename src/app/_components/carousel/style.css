@@ -20,7 +20,7 @@
 /*  IMPORTANT CODE BELOW */
 
 .slide-track {
-  width: calc(150px * 20);
+  width: calc(150px * 18);
   display: flex;
   animation: scroll 20s linear infinite;
   justify-content: space-between;
@@ -32,6 +32,7 @@
   margin: 0 10px;
   display: grid;
   place-items: center;
+  filter: opacity(0.7);
 }
 /* .slide:hover {
   transform: scale(0.8);
@@ -47,23 +48,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .slide-track {
-    width: calc(100px * 22);
+  /* .slider {
+    height: 80px;
   }
-
+  .slide-track {
+    width: calc(80px * 20);
+    animation: scroll 20s linear infinite;
+  }
   .slide {
     width: 80px;
-    height: 40px;
-  }
+  } */
 
-  @keyframes scroll {
+  /* @keyframes scroll {
     0% {
       transform: translateX(0px);
     }
     100% {
       transform: translateX(calc(-80px * 10));
     }
-  }
+  } */
 }
 
 /* .carousel {

@@ -7,7 +7,7 @@ import CarouselSection from "./_sections/_home/CarouselSection/CarouselSection";
 import AdvantagesSection from "./_sections/_home/AdvantagesSection/AdvantagesSection";
 import ObjectivesSection from "./_sections/_home/ObjectivesSection/ObjectivesSection";
 import ApplicationSection from "./_sections/_home/ApplicationSection/ApplicationSection";
-import ContactSection from "./_sections/_home/ContactSection/ContactSection";
+import ReviewsSection from "./_sections/ReviewsSection/ReviewsSection";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <AdvantagesSection />
       <ObjectivesSection />
       <ApplicationSection />
-      <ContactSection />
+      <ReviewsSection />
     </main>
   );
 }

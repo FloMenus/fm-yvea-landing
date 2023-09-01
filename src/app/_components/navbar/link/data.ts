@@ -1,7 +1,7 @@
 export const data = [
   {
     title: "Services",
-    url: "",
+    url: "/services/pvoc",
     sublinks: [
       {
         title: "Pre-export Verification of Conformity (PVoC)",
@@ -19,6 +19,14 @@ export const data = [
   },
   {
     title: "Contact",
-    url: "/contact",
+    url: "",
+    subElements: [
+      {
+        title: "Réserver un échange",
+      },
+      {
+        title: "Écrivez-nous",
+      },
+    ],
   },
 ];

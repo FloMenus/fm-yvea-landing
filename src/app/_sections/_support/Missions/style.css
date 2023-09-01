@@ -1,0 +1,104 @@
+.missions_section {
+  background: linear-gradient(156deg, #1b019b 0%, #007fc7 100%);
+  width: 100%;
+}
+
+.missions_section_content {
+  max-width: 1100px;
+  position: relative;
+  margin: 0 auto;
+  padding: 56px 16px 16px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.missions_section_title {
+  position: absolute;
+  top: -28px;
+  left: 20px;
+  width: fit-content;
+  padding: 0 24px;
+  height: 58px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #012c9b 5.73%, #0954ac 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.missions_section_title_text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.missions_section_mission {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.missions_section_mission_title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 199, 0.17) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.missions_section_mission img {
+  width: 200px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.missions_section_content :nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.missions_section_content :nth-child(2n + 1) h4 {
+  background: linear-gradient(
+    210deg,
+    rgba(0, 197, 199, 0.17) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+
+@media screen and (max-width: 974px) {
+  .missions_section_title {
+    font-size: 20px;
+    height: 48px;
+    top: -24px;
+  }
+  .missions_section_mission img {
+    width: 144px;
+  }
+  .missions_section_mission_title {
+    font-size: 20px;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .missions_section_title {
+    font-size: 18px;
+    height: 36px;
+    top: -18px;
+  }
+  .missions_section_mission img {
+    width: 72px;
+  }
+  .missions_section_mission_title {
+    font-size: 16px;
+    padding: 8px;
+  }
+}

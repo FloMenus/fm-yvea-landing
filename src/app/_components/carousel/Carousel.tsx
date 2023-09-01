@@ -18,124 +18,35 @@ export default function Carousel() {
   return (
     <div className="slider">
       <div className="slide-track">
+        <img className="slide" src="/medias/brands/'4b-group.png" />
         <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands.assmannpng" />
+        <img className="slide" src="/medias/brands/abb.png" />
+        <img className="slide" src="/medias/brands/actemium.png" />
+        <img className="slide" src="/medias/brands/danube-international.png" />
+        <img className="slide" src="/medias/brands/ksb.png" />
+        <img className="slide" src="/medias/brands/motus-africa.png" />
+        <img className="slide" src="/medias/brands/perenco.png" />
+        <img className="slide" src="/medias/brands/promaritime.png" />
+
+        <img className="slide" src="/medias/brands/'4b-group.png" />
         <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
+        <img className="slide" src="/medias/brands/abb.png" />
+        <img className="slide" src="/medias/brands/actemium.png" />
+        <img className="slide" src="/medias/brands/danube-international.png" />
+        <img className="slide" src="/medias/brands/ksb.png" />
+        <img className="slide" src="/medias/brands/motus-africa.png" />
+        <img className="slide" src="/medias/brands/perenco.png" />
+        <img className="slide" src="/medias/brands/promaritime.png" />
+
+        <img className="slide" src="/medias/brands/'4b-group.png" />
         <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
-        <img className="slide" src="/medias/brands/midas.png" />
-        <img className="slide" src="/medias/brands/assmann.png" />
+        <img className="slide" src="/medias/brands/abb.png" />
+        <img className="slide" src="/medias/brands/actemium.png" />
+        <img className="slide" src="/medias/brands/danube-international.png" />
+        <img className="slide" src="/medias/brands/ksb.png" />
+        <img className="slide" src="/medias/brands/motus-africa.png" />
+        {/* <img className="slide" src="/medias/brands/promaritime.png" /> */}
       </div>
     </div>
-    // <div className="carousel">
-    //   {loaded ? (
-    //     <>
-    //       <div className="swiper-delimitation"></div>
-    //       <Swiper
-    //         className="swiper"
-    //         slidesPerView={5}
-    //         spaceBetween={12}
-    //         autoplay={{
-    //           delay: 1000,
-    //           disableOnInteraction: false,
-    //         }}
-    //         freeMode
-    //         modules={[Autoplay]}
-    //         loop
-    //       >
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img src="/medias/brands/midas.png" alt="earth" loading="lazy" />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //         <SwiperSlide className="swiper-slide">
-    //           <img
-    //             src="/medias/brands/assmann.png"
-    //             alt="earth"
-    //             loading="lazy"
-    //           />
-    //           <div className="swiper-lazy-preloader"></div>
-    //         </SwiperSlide>
-    //       </Swiper>
-    //       <div className="swiper-delimitation"></div>
-    //     </>
-    //   ) : (
-    //     <Loader />
-    //   )}
-    // </div>
   );
 }

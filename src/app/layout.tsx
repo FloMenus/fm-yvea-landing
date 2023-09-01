@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter, Nunito_Sans } from "next/font/google";
 import Navbar from "./_components/navbar/Navbar";
 import Footer from "./_components/footer/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
@@ -18,10 +19,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
+    <html lang="fr">
+      {/* <head>
+       
         <link rel="icon" href="/favicon.ico" />
-      </head>
+      </head> */}
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <body className={nunito_sans.className}>
         <Navbar />
         <div className="main_content">{children}</div>

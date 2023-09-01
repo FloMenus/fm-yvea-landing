@@ -21,25 +21,23 @@ export const applicationData = [
         description:
           "Centralisez et suivez l'historique de vos demandes en un seul endroit intuitif",
       },
+      {
+        title: "Réutilisation intelligente des informations et documents",
+        description:
+          "Gagnez du temps en retrouvant et en réutilisant facilement vos données précédentes",
+      },
     ],
-    image: "/medias/application_illustrations/certification_cost.png",
+    image: "/medias/application_illustrations/history.png",
   },
   {
     text: [
       {
-        title:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+        title: "Indexation rapide des documents requis par destination",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-      },
-      {
-        title:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+          "Simplifiez vos formalités en accédant directement aux documents nécessaires",
       },
     ],
-    image: "/medias/application_illustrations/certification_cost.png",
+    image: "/medias/application_illustrations/documents.png",
   },
 ];
 
