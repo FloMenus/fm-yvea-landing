@@ -10,7 +10,7 @@ export default function Dropdown({ children }: { children: Sublink[] }) {
     <div className={style.dropdown}>
       <ul className={style.dropdown_content}>
         {children.map((child) => (
-          <li className={style.dropdown_item}>
+          <li className={style.dropdown_item} key={child.title}>
             <Link href={child.url}>
               <p className={style.dropdown_item_title}>{child.title}</p>
             </Link>

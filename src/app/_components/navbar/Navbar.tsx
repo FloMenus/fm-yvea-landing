@@ -1,16 +1,15 @@
 "use client";
 import "./style.css";
-import styles from "./link/style.module.css";
+// import styles from "./link/style.module.css";
 import Link from "next/link";
 import LinkElement from "./link/LinkElement";
-import { LinkProps } from "next/dist/client/link";
-import LanguageSelector from "./languageSelector/LanguageSelector";
+// import { LinkProps } from "next/dist/client/link";
+// import LanguageSelector from "./languageSelector/LanguageSelector";
 
 import { data } from "./link/data";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
   const [isNavBarHidden, setIsNavBarHidden] = useState(false);
 

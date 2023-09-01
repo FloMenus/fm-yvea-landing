@@ -14,14 +14,14 @@ export default function LegalMentionsPage() {
         <h3 className="article_title">1. Identification de l'éditeur</h3>
         <p>
           Le site YVEA (ci-après « <span>le Site »</span>), accessible à
-          l’adresse https://www.yvea.io est édité par la société YVEA (ci-après
-          « <span>l’Éditeur »</span>), SASU au capital de 1000.0 euros, dont le
+          l'adresse https://www.yvea.io est édité par la société YVEA (ci-après
+          « <span>l'Éditeur »</span>), SASU au capital de 1000.0 euros, dont le
           siège social est situé 27 Rue du Chemin Vert, 75011 Paris, France. Il
           est immatriculé au RCS de Paris sous le numéro 914285259. TVA
           intracommunautaire n° FR78914285259
           <br />
           <br />
-          L’Éditeur peut être contacté à l’adresse mail contact@yvea.io ou au
+          L'Éditeur peut être contacté à l'adresse mail contact@yvea.io ou au
           numéro 01 59 06 79 52.
         </p>
       </div>
@@ -32,7 +32,7 @@ export default function LegalMentionsPage() {
           Vironos Street, 6023 Larnaca, Chypre.
           <br />
           <br />
-          L’hébergeur est joignable par mail à l’adresse suivante :
+          L'hébergeur est joignable par mail à l'adresse suivante :
           gdpr@hostinger.com.
           <br />
           <br />
@@ -43,60 +43,60 @@ export default function LegalMentionsPage() {
         <h3 className="article_title">3. Collecte de données personnelles</h3>
         <p>
           Conformément aux dispositions de la loi n° 78-17 du 6 janvier 1978
-          modifiée, relative à l’informatique, aux fichiers et aux libertés,
-          l’utilisateur est informé que l’Éditeur procède à la collecte et au
+          modifiée, relative à l'informatique, aux fichiers et aux libertés,
+          l'utilisateur est informé que l'Éditeur procède à la collecte et au
           traitement de données personnelles, lors de la connexion au Site.
           <br />
           <br />
           Les données collectées servent principalement à permettre la mise à
           disposition de la Plateforme, son optimisation et sa sécurisation afin
-          d’offrir aux utilisateurs un service de la meilleure qualité possible.
+          d'offrir aux utilisateurs un service de la meilleure qualité possible.
           Des données supplémentaires pourront éventuellement être collectées
-          par l’Éditeur pour permettre la bonne exécution de contrats
-          commerciaux conclus par l’entremise de la Plateforme avec
-          l’utilisateur.
+          par l'Éditeur pour permettre la bonne exécution de contrats
+          commerciaux conclus par l'entremise de la Plateforme avec
+          l'utilisateur.
           <br />
           <br />
-          L’utilisateur est informé qu’il dispose d’un droit d’accès,
-          d’interrogation, de modification et de suppression des informations
-          qui le concernent, à exercer à tout moment auprès de l’Éditeur soit
+          L'utilisateur est informé qu'il dispose d'un droit d'accès,
+          d'interrogation, de modification et de suppression des informations
+          qui le concernent, à exercer à tout moment auprès de l'Éditeur soit
           directement sur le Site, soit par courrier postal adressé au 27 Rue du
-          Chemin Vert, 75011 Paris, France soit par e-mail à l’adresse
+          Chemin Vert, 75011 Paris, France soit par e-mail à l'adresse
           contact@yvea.io.
           <br />
           <br />
           Les informations recueillies pourront éventuellement être partagées à
-          des tiers résidant dans l’Union Européenne dans les cas suivants :
+          des tiers résidant dans l'Union Européenne dans les cas suivants :
           <br />
           <ul className="legals_list">
             <li>
-              Lorsque l’utilisateur publie, dans une zone de commentaire, des
+              Lorsque l'utilisateur publie, dans une zone de commentaire, des
               informations accessibles au public ;
             </li>
-            <li>Lorsque l’utilisateur y consent expressément ;</li>
+            <li>Lorsque l'utilisateur y consent expressément ;</li>
             <li>
-              Lorsque la loi l’exige ou afin de coopérer à une enquête
-              judiciaire à la demande exprès d’un détenteur de l’autorité
+              Lorsque la loi l'exige ou afin de coopérer à une enquête
+              judiciaire à la demande exprès d'un détenteur de l'autorité
               publique ;
             </li>
             <li>
-              Pour l’exécution de prestations commerciales pour lesquelles est
-              rendue nécessaire la coopération d’un tiers, notamment dans le cas
-              où l’Éditeur choisirait de sous-traiter certaines de ses
-              prestations par l’entremise de Services Tiers.
+              Pour l'exécution de prestations commerciales pour lesquelles est
+              rendue nécessaire la coopération d'un tiers, notamment dans le cas
+              où l'Éditeur choisirait de sous-traiter certaines de ses
+              prestations par l'entremise de Services Tiers.
             </li>
           </ul>
           <br />
           <br />
           Lorsque certaines informations sont obligatoires pour accéder à des
-          fonctionnalités spécifiques du Site, l’Éditeur indiquera ce caractère
+          fonctionnalités spécifiques du Site, l'Éditeur indiquera ce caractère
           obligatoire au moment de la saisie des données.
           <br />
           <br />
           Les données personnelles collectées ne seront conservées que le temps
           nécessaire pour permettre la bonne utilisation du Site, empêcher les
           fraudes et abus, et satisfaire aux obligations légales et
-          réglementaires de l’Éditeur concernant la gestion du Site.
+          réglementaires de l'Éditeur concernant la gestion du Site.
         </p>
       </div>
       <div className="legals_article">
@@ -106,30 +106,30 @@ export default function LegalMentionsPage() {
           définie par la CNIL de la manière suivante :
           <br />
           <br />« Un cookie est un petit fichier stocké par un serveur dans le
-          terminal (ordinateur, téléphone, etc.) d’un utilisateur et associé à
-          un domaine web (c’est-à-dire dans la majorité des cas à l’ensemble des
-          pages d’un même site web). Ce fichier est automatiquement renvoyé lors
+          terminal (ordinateur, téléphone, etc.) d'un utilisateur et associé à
+          un domaine web (c'est-à-dire dans la majorité des cas à l'ensemble des
+          pages d'un même site web). Ce fichier est automatiquement renvoyé lors
           de contacts ultérieurs avec le même domaine. Les cookies ont de
           multiples usages : ils peuvent servir à mémoriser votre identifiant
-          client auprès d’un site marchand, le contenu courant de votre panier
-          d’achat, la langue d’affichage de la page web, un identifiant
+          client auprès d'un site marchand, le contenu courant de votre panier
+          d'achat, la langue d'affichage de la page web, un identifiant
           permettant de tracer votre navigation à des fins statistiques ou
           publicitaires, etc. » .Information issue du site officiel de la CNIL
           (https://www.cnil.fr/fr/glossaire)
           <br />
           <br />
           Ces cookies ont pour objectif de faciliter la navigation de
-          l’utilisateur et d’améliorer la qualité du service proposé, en
+          l'utilisateur et d'améliorer la qualité du service proposé, en
           collectant des informations statistiques et relatives au trafic.
           <br />
           <br />
-          L’utilisation de ces cookies est portée à la connaissance de
-          l’utilisateur par le biais d’un bandeau lui demandant son
-          consentement. Si l’utilisateur y consent, ce consentement est
+          L'utilisation de ces cookies est portée à la connaissance de
+          l'utilisateur par le biais d'un bandeau lui demandant son
+          consentement. Si l'utilisateur y consent, ce consentement est
           considéré comme valide pour une durée maximale de treize (13) mois.
           <br />
           <br />
-          Si l’utilisateur ne consent pas à l’utilisation des cookies, l’Éditeur
+          Si l'utilisateur ne consent pas à l'utilisation des cookies, l'Éditeur
           ne pourra lui garantir une expérience optimale sur le Site.
           <br />
           <br />
@@ -149,39 +149,39 @@ export default function LegalMentionsPage() {
           vigueur au titre de la propriété intellectuelle.
           <br />
           <br />
-          Ils sont la propriété pleine et entière de l’Éditeur ou de ses
+          Ils sont la propriété pleine et entière de l'Éditeur ou de ses
           partenaires, sauf mentions particulières. Toute reproduction,
           représentation, utilisation ou adaptation, sous quelque forme que ce
           soit, de tout ou partie de ces éléments, y compris les applications
-          informatiques, sans l’accord préalable et écrit de l’Éditeur, sont
-          strictement interdites. Le fait pour l’Éditeur de ne pas engager de
+          informatiques, sans l'accord préalable et écrit de l'Éditeur, sont
+          strictement interdites. Le fait pour l'Éditeur de ne pas engager de
           procédure dès la prise de connaissance de ces utilisations non
           autorisées ne vaut pas acceptation desdites utilisations et
           renonciation aux poursuites.
           <br />
           <br />
-          Seule l’utilisation pour un usage privé dans un cercle de famille est
+          Seule l'utilisation pour un usage privé dans un cercle de famille est
           autorisée et toute autre utilisation est constitutive de contrefaçon
-          et/ou d’atteinte aux droits voisins, sanctionnées par Code de la
+          et/ou d'atteinte aux droits voisins, sanctionnées par Code de la
           propriété intellectuelle.
           <br />
           <br />
-          La reprise de tout ou partie de ce contenu nécessite l’autorisation
-          préalable de l’Éditeur ou du titulaire des droits sur ce contenu.
+          La reprise de tout ou partie de ce contenu nécessite l'autorisation
+          préalable de l'Éditeur ou du titulaire des droits sur ce contenu.
         </p>
       </div>
       <div className="legals_article">
         <h3 className="article_title">6. Liens hypertextes</h3>
         <p>
-          Le Site peut contenir des liens hypertextes donnant accès à d’autres
-          sites web édités et gérés par des tiers et non par l’Éditeur.
-          L’Éditeur ne pourra être tenu responsable directement ou indirectement
+          Le Site peut contenir des liens hypertextes donnant accès à d'autres
+          sites web édités et gérés par des tiers et non par l'Éditeur.
+          L'Éditeur ne pourra être tenu responsable directement ou indirectement
           dans le cas où lesdits sites tiers ne respecteraient pas les
           dispositions légales.
           <br />
           <br />
           La création de liens hypertextes vers le Site ne peut être faite
-          qu’avec l’autorisation écrite et préalable de l’Éditeur.
+          qu'avec l'autorisation écrite et préalable de l'Éditeur.
         </p>
       </div>
     </div>
