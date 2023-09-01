@@ -93,8 +93,10 @@ export default function Earth() {
   // Set scrolled to true when user scroll down 1 time
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolled(true);
+      if (window !== undefined) {
+        if (window.scrollY > 0) {
+          setScrolled(true);
+        }
       }
     };
     window.addEventListener("scroll", handleScroll);

@@ -10,7 +10,7 @@ import { data } from "./link/data";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
-  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isNavBarHidden, setIsNavBarHidden] = useState(false);
 
   useEffect(() => {
