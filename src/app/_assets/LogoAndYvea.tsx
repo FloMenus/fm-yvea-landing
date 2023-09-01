@@ -29,7 +29,6 @@ export default function LogoAndYvea() {
       />
       <mask
         id="mask0_1_369"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="44"
         y="34"
@@ -53,7 +52,6 @@ export default function LogoAndYvea() {
       />
       <mask
         id="mask1_1_369"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="42"
         y="0"
@@ -70,7 +68,6 @@ export default function LogoAndYvea() {
       </g>
       <mask
         id="mask2_1_369"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="0"
         y="36"
@@ -87,7 +84,6 @@ export default function LogoAndYvea() {
       </g>
       <mask
         id="mask3_1_369"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="0"
         y="31"
@@ -104,7 +100,6 @@ export default function LogoAndYvea() {
       </g>
       <mask
         id="mask4_1_369"
-        style="mask-type:luminance"
         maskUnits="userSpaceOnUse"
         x="42"
         y="53"
