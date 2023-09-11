@@ -18,7 +18,7 @@ export default function Carousel() {
   return (
     <div className="slider">
       <div className="slide-track">
-        <img className="slide" src="/medias/brands/'4b-group.png" alt="brand" />
+        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
         <img className="slide" src="/medias/brands/midas.png" alt="brand" />
         <img className="slide" src="/medias/brands/abb.png" alt="brand" />
         <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
@@ -40,7 +40,7 @@ export default function Carousel() {
           alt="brand"
         />
 
-        <img className="slide" src="/medias/brands/'4b-group.png" alt="brand" />
+        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
         <img className="slide" src="/medias/brands/midas.png" alt="brand" />
         <img className="slide" src="/medias/brands/abb.png" alt="brand" />
         <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
@@ -62,7 +62,7 @@ export default function Carousel() {
           alt="brand"
         />
 
-        <img className="slide" src="/medias/brands/'4b-group.png" alt="brand" />
+        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
         <img className="slide" src="/medias/brands/midas.png" alt="brand" />
         <img className="slide" src="/medias/brands/abb.png" alt="brand" />
         <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
