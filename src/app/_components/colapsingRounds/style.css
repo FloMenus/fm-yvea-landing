@@ -98,7 +98,7 @@
 
 /* TABLET */
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 974px) {
   .colapsing-rounds {
     flex-direction: column;
     /* gap: 0; */
