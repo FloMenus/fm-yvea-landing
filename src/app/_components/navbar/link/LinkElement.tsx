@@ -37,6 +37,16 @@ export default function LinkElement({ children }: { children: LinkElement }) {
     activate(false);
   };
 
+  const handleClickPhone = (e: React.MouseEvent<HTMLLIElement, MouseEvent>) => {
+    e.preventDefault();
+    setOpenPhone(true);
+  };
+
+  const handleClickMail = (e: React.MouseEvent<HTMLLIElement, MouseEvent>) => {
+    e.preventDefault();
+    setOpenMail(true);
+  };
+
   return (
     // @Faire: Reorganise this code to have components splitted
     <>
@@ -107,11 +117,11 @@ export default function LinkElement({ children }: { children: LinkElement }) {
               <ul className={styles.dropdown_content}>
                 {children.subElements.map((child) => (
                   <li
-                    onClick={() =>
+                    onClick={(e: React.MouseEvent<HTMLLIElement, MouseEvent>) =>
                       child.title === "Réserver un échange"
-                        ? setOpenPhone(true)
+                        ? handleClickPhone(e)
                         : child.title === "Écrivez-nous"
-                        ? setOpenMail(true)
+                        ? handleClickMail(e)
                         : null
                     }
                     className={styles.dropdown_item}
