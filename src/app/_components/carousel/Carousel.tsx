@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { useEffect, useState } from "react";
 import Loader from "../loader/Loader";
+import Image from "next/image";
 
 export default function Carousel() {
   const [loaded, setLoaded] = useState(false);

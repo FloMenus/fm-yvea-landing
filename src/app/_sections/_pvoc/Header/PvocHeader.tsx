@@ -1,4 +1,5 @@
 import "./style.css";
+import Image from "next/image";
 
 export default function PvocHeader() {
   return (
@@ -19,6 +20,7 @@ export default function PvocHeader() {
         </p>
       </div>
       <img
+        layout="fill"
         className="pvoc_header_img"
         src="/medias/documents.png"
         alt="pvoc_header"

@@ -5,6 +5,7 @@ import { useState } from "react";
 import ModalComponent from "../modal/Modal";
 import { Widget } from "@typeform/embed-react";
 import { InlineWidget } from "react-calendly";
+import Image from "next/image";
 
 export default function ContactButtons() {
   const [openPhone, setOpenPhone] = useState(false);
@@ -37,14 +38,14 @@ export default function ContactButtons() {
           onClick={() => setOpenPhone(true)}
           className="contact_button call"
         >
-          <img src="/medias/telephone.png" alt="call" />
+          <img layout="fill" src="/medias/telephone.png" alt="call" />
           <h5 className="contact_button_title">Appeler</h5>
         </button>
         <button
           onClick={() => setOpenMail(true)}
           className="contact_button mail"
         >
-          <img src="/medias/mail.png" alt="mail" />
+          <img layout="fill" src="/medias/mail.png" alt="mail" />
           <h5 className="contact_button_title">Prendre rendez-vous</h5>
         </button>
       </div>

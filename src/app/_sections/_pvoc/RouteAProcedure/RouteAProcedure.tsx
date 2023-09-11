@@ -1,5 +1,6 @@
 import "./style.css";
 import { RouteAProcedureData } from "./data";
+import Image from "next/image";
 
 export default function RouteAProcedure() {
   return (
@@ -22,6 +23,7 @@ export default function RouteAProcedure() {
           {RouteAProcedureData.map((step) => (
             <div className="routeA_section_step" key={step.title}>
               <img
+                layout="fill"
                 className="routeA_section_step_circle"
                 src="/medias/shapes/circle.svg"
                 alt="step"
@@ -29,6 +31,7 @@ export default function RouteAProcedure() {
             </div>
           ))}
           <img
+            layout="fill"
             className="routeA_section_steps_timeline_line"
             src="/medias/shapes/line.svg"
             alt="arrow"

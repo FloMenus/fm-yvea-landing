@@ -3,6 +3,8 @@ import styles from "./style.module.css";
 import { useState, useEffect } from "react";
 import { languagesData } from "./languageData";
 
+import Image from "next/image";
+
 export default function LanguageSelector() {
   const [country, setCountry] = useState("uk");
   const [activated, activate] = useState(false);
@@ -23,6 +25,7 @@ export default function LanguageSelector() {
       onMouseLeave={handleMouseLeave}
     >
       <img
+        layout="fill"
         className={styles.flag}
         src={`/medias/countries/${country}.png/`}
         alt="flag"

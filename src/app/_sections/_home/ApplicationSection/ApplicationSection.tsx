@@ -4,6 +4,7 @@ import "./style.css";
 import { useEffect, useState } from "react";
 import { applicationData, applicationTimer } from "./data";
 import NavigationDots from "./NavigationDots/NavgationDots";
+import Image from "next/image";
 
 export default function ApplicationSection() {
   const [counter, setCounter] = useState(0);
@@ -100,6 +101,7 @@ export default function ApplicationSection() {
             ))}
           </div>
           <img
+            layout="fill"
             className={`application_container_content_img ${
               transition === "start"
                 ? "transition_start_right"

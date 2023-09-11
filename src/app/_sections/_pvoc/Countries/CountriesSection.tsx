@@ -3,6 +3,7 @@ import "./style.css";
 import { countriesData } from "./data";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
+import Image from "next/image";
 
 export default function CountriesSection() {
   return (
@@ -26,6 +27,7 @@ export default function CountriesSection() {
           <Grid item xs={6} sm={3} key={country.name}>
             <div className="countries_section_country">
               <img
+                layout="fill"
                 className="country_section_country_img"
                 src={country.flag}
                 alt={country.name}

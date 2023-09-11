@@ -2,6 +2,7 @@
 import "./style.css";
 import { useEffect, useRef, useState } from "react";
 import useOnScreen from "../useOnScreen/UseOnScreen";
+import Image from "next/image";
 
 export default function ColapsingRounds() {
   const ref = useRef<HTMLDivElement>(null);
@@ -21,6 +22,7 @@ export default function ColapsingRounds() {
         ${colapsed ? "colapsed-round" : ""}`}
         >
           <img
+            layout="fill"
             className="colapsing-round-img"
             src="/medias/icons/folder.png"
             alt="round"
@@ -43,6 +45,7 @@ export default function ColapsingRounds() {
         ${colapsed ? "colapsed-round" : ""}`}
         >
           <img
+            layout="fill"
             className="colapsing-round-img"
             src="/medias/icons/clock.png"
             alt="round"
@@ -65,6 +68,7 @@ export default function ColapsingRounds() {
         ${colapsed ? "colapsed-round" : ""}`}
         >
           <img
+            layout="fill"
             className="colapsing-round-img"
             src="/medias/icons/chart.png"
             alt="round"

@@ -24,7 +24,6 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hero_right">
-        {/* <img src="/medias/earth.svg" alt="earth" /> */}
         <Earth />
       </div>
     </div>

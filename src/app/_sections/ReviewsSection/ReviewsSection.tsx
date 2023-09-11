@@ -1,4 +1,5 @@
 import "./style.css";
+import Image from "next/image";
 
 export default function ReviewsSection() {
   return (
@@ -14,6 +15,7 @@ export default function ReviewsSection() {
           </div>
           <div className="review_bottom">
             <img
+              layout="fill"
               className="review_image"
               src="/medias/avatars/businesswoman.png"
               alt="Businesswoman image"
@@ -39,6 +41,7 @@ export default function ReviewsSection() {
           </div>
           <div className="review_bottom">
             <img
+              layout="fill"
               className="review_image"
               src="/medias/avatars/businesswoman2.png"
               alt="Businesswoman image"
@@ -54,9 +57,9 @@ export default function ReviewsSection() {
           </div>
         </div>
       </div>
-      {/* <img className="geometric" src="/medias/geometric1.svg" alt="earth" />
-      <img className="geometric2" src="/medias/geometric1.svg" alt="earth" />
-      <img className="geometric3" src="/medias/geometric2.svg" alt="earth" /> */}
+      {/* <img layout="fill" className="geometric" src="/medias/geometric1.svg" alt="earth" />
+      <img layout="fill" className="geometric2" src="/medias/geometric1.svg" alt="earth" />
+      <img layout="fill" className="geometric3" src="/medias/geometric2.svg" alt="earth" /> */}
       {/* <div className="contact_text">
         <h4 className="contact_title">Besoin d'informations spécifiques ?</h4>
         <p className="contact_paragraph">

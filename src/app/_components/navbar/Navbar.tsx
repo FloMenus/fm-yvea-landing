@@ -8,6 +8,7 @@ import LinkElement from "./link/LinkElement";
 
 import { data } from "./link/data";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

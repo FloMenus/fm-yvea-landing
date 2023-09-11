@@ -7,21 +7,21 @@ export default function Earth() {
   const [redPointers, setRedPointers] = useState(false);
 
   // Plane States
-  const [plane, setPlane] = useState(false);
+  // const [plane, setPlane] = useState(false);
   const [initialPlanePosition, setInitialPlanePosition] = useState({
     x: 330,
     y: 50,
   });
   const [planePosition, setPlanePosition] = useState(initialPlanePosition);
   //   Truck States
-  const [truck, setTruck] = useState(false);
+  // const [truck, setTruck] = useState(false);
   const [initialTruckPosition, setInitialTruckPosition] = useState({
     x: 300,
     y: 0,
   });
   const [truckPosition, setTruckPosition] = useState(initialTruckPosition);
   // Boat States
-  const [boat, setBoat] = useState(false);
+  // const [boat, setBoat] = useState(false);
   const [initialBoatPosition, setInitialBoatPosition] = useState({
     x: -310,
     y: 0,
@@ -29,7 +29,7 @@ export default function Earth() {
   const [boatPosition, setBoatPosition] = useState(initialBoatPosition);
 
   //   Animation Trigger
-  const [vehiculeAnimation, setVehiculeAnimation] = useState(false);
+  // const [vehiculeAnimation, setVehiculeAnimation] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Animation function for vehicules
@@ -91,26 +91,31 @@ export default function Earth() {
   }, []);
 
   // Set scrolled to true when user scroll down 1 time
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window !== undefined) {
+  if (typeof window !== undefined) {
+    useEffect(() => {
+      const handleScroll = () => {
         if (window.scrollY > 0) {
           setScrolled(true);
         }
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      };
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
 
-  //   Trigger animation when scrolled
-  useEffect(() => {
-    if (scrolled) {
-      triggerAnimation();
-    }
-  }, [scrolled]);
+    //   Trigger animation when scrolled
+    useEffect(() => {
+      if (scrolled) {
+        triggerAnimation();
+      }
+    }, [
+      scrolled,
+      initialPlanePosition,
+      initialTruckPosition,
+      initialBoatPosition,
+    ]);
+  }
 
   return (
     <div className="earth">
