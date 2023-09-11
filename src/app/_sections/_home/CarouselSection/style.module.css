@@ -12,6 +12,8 @@
   color: #dce6ff;
   font-weight: 400;
   margin-bottom: 20px;
+  place-self: flex-start;
+  padding-left: 20px;
 }
 
 .carousel_wrapper {

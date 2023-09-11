@@ -16,6 +16,7 @@ export default function CountriesSection() {
           maxWidth: "1100px",
           position: "relative",
           margin: "0 auto",
+          paddingTop: "29px",
         }}
       >
         <div className="countries_section_header">
@@ -37,6 +38,5 @@ export default function CountriesSection() {
         ))}
       </Grid>
     </div>
-    // </div>
   );
 }

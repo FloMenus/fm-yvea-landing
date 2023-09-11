@@ -36,33 +36,56 @@
 
 .routeA_section_step_squares {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 1079px;
+  gap: 4px;
 }
 
 .routeA_section_step_square {
-  width: 270px;
+  width: 320px;
   border-radius: 9px;
   background: linear-gradient(180deg, #02298c 0%, #0168b2 100%);
   color: #fff;
   padding: 24px;
+  position: relative;
+  z-index: 0;
+}
+
+.routeA_section_step_square_number {
+  position: absolute;
+  top: -20px;
+  left: -7px;
+  color: #0168b2;
+  filter: opacity(0.6);
+  font-size: 128px;
+  z-index: 1;
 }
 
 .routeA_section_step_title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 8px;
+  z-index: 2;
+  position: relative;
 }
 
 .routeA_section_step_paragraph {
   font-size: 14px;
   font-weight: 400;
-  width: 182px;
+  z-index: 2;
+  position: relative;
 }
 
 .routeA_section_step_paragraph_list {
   list-style: inside;
+  z-index: 1;
+  position: relative;
+}
+
+.routeA_section_step_paragraph_list li {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 @media screen and (max-width: 974px) {

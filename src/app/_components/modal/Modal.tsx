@@ -17,17 +17,27 @@ export default function ModalComponent({
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Modal open={open} onClose={handleClose}>
+    <Modal
+      open={open}
+      onClose={handleClose}
+      sx={{
+        bgcolor: "transparent",
+        outline: "none",
+      }}
+    >
       <Box
         sx={{
           width: isSmallScreen ? "95%" : 1000,
           height: isSmallScreen ? "75%" : 700,
-          bgcolor: "background.paper",
+          bgcolor: "transparent",
+          outline: "none",
+          border: "none",
+          boxShadow: "none",
           position: "absolute",
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          boxShadow: 24,
+          // boxShadow: 24,
           borderRadius: 2,
           display: "flex",
           alignItems: "center",

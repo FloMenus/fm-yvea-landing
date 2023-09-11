@@ -6,6 +6,7 @@ export default function RouteAProcedure() {
   return (
     <div className="routeA_section">
       <h4 className="routeA_section_title">La procédure classique (Route A)</h4>
+      <br />
       <div className="routeA_section_paragraph_section">
         <p className="routeA_section_paragraph">
           Chaque destination d'importation a mandaté un ou plusieurs organismes
@@ -38,6 +39,7 @@ export default function RouteAProcedure() {
         {/* SQUARES */}
         <div className="routeA_section_step_squares">
           <div className="routeA_section_step_square">
+            <div className="routeA_section_step_square_number">1</div>
             <h5 className="routeA_section_step_title">Revue documentaire</h5>
             <div className="routeA_section_step_paragraph">
               <p>
@@ -61,6 +63,7 @@ export default function RouteAProcedure() {
           </div>
           {/*  */}
           <div className="routeA_section_step_square">
+            <div className="routeA_section_step_square_number">2</div>
             <div className="routeA_section_step_paragraph">
               <h5 className="routeA_section_step_title">
                 Inspection de la marchandise
@@ -85,6 +88,7 @@ export default function RouteAProcedure() {
           </div>
           {/*  */}
           <div className="routeA_section_step_square">
+            <div className="routeA_section_step_square_number">3</div>
             <div className="routeA_section_step_paragraph">
               <h5 className="routeA_section_step_title">
                 Validation du certificat

@@ -1,5 +1,5 @@
 .countries_section {
-  height: 600px;
+  height: fit-content;
   width: 100%;
   background: linear-gradient(
     315deg,

@@ -66,7 +66,7 @@ export default function LinkElement({ children }: { children: LinkElement }) {
         <Widget
           id="brJmmHYw?typeform-source=yvea.io"
           className="typeform-inline-widget"
-          style={{ width: "100%", height: "100%", padding: 0 }}
+          style={{ width: "100%", height: "95%", padding: 0 }}
         />
       </ModalComponent>
 

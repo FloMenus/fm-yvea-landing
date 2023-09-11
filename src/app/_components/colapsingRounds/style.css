@@ -21,14 +21,14 @@
   }
 } */
 .colapsing-rounds {
-  max-width: 900px;
+  max-width: 1000px;
+  width: 100%;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  gap: 24px;
 }
 
 .colapsing-round {
@@ -50,7 +50,7 @@
 .colapsed-round {
   justify-content: flex-start;
   height: 500px;
-  width: 250px;
+  width: 300px;
   border-radius: 40px;
   transition: all 0.5s ease-in-out;
   padding: 24px;
