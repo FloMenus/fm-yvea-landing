@@ -101,7 +101,6 @@ export default function ApplicationSection() {
             ))}
           </div>
           <img
-            layout="fill"
             className={`application_container_content_img ${
               transition === "start"
                 ? "transition_start_right"
