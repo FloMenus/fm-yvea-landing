@@ -91,31 +91,32 @@ export default function Earth() {
   }, []);
 
   // Set scrolled to true when user scroll down 1 time
-  if (typeof window !== undefined) {
-    useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY > 0) {
-          setScrolled(true);
-        }
-      };
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
 
-    //   Trigger animation when scrolled
-    useEffect(() => {
-      if (scrolled) {
-        triggerAnimation();
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
       }
-    }, [
-      scrolled,
-      initialPlanePosition,
-      initialTruckPosition,
-      initialBoatPosition,
-    ]);
-  }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  //   Trigger animation when scrolled
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (scrolled) {
+      triggerAnimation();
+    }
+  }, [
+    scrolled,
+    initialPlanePosition,
+    initialTruckPosition,
+    initialBoatPosition,
+  ]);
 
   return (
     <div className="earth">

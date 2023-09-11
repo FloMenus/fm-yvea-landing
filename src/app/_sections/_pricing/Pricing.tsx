@@ -15,7 +15,7 @@ export default function Pricing() {
             transparente répond à vos besoins.
           </p>
         </div>
-        <img layout="fill" src="/medias/price.png" alt="pricing_header" />
+        <img src="/medias/price.png" alt="pricing_header" />
       </div>
       <div className="pricing">
         <div className="pricing_text">
@@ -37,7 +37,7 @@ export default function Pricing() {
             qualité.
           </p>
         </div>
-        {/* <img layout="fill" src="/medias/goal.png" alt="pricing_header" /> */}
+        {/* <img  src="/medias/goal.png" alt="pricing_header" /> */}
       </div>
       <div className="pricing">
         <div className="pricing_text">
@@ -53,7 +53,7 @@ export default function Pricing() {
             centré sur votre réussite internationale.
           </p>
         </div>
-        {/* <img layout="fill" src="/medias/goal.png" alt="pricing_header" /> */}
+        {/* <img  src="/medias/goal.png" alt="pricing_header" /> */}
       </div>
     </div>
   );

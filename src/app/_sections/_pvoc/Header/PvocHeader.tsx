@@ -20,7 +20,6 @@ export default function PvocHeader() {
         </p>
       </div>
       <img
-        layout="fill"
         className="pvoc_header_img"
         src="/medias/documents.png"
         alt="pvoc_header"

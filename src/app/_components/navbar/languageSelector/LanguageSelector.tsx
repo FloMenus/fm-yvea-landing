@@ -25,7 +25,6 @@ export default function LanguageSelector() {
       onMouseLeave={handleMouseLeave}
     >
       <img
-        layout="fill"
         className={styles.flag}
         src={`/medias/countries/${country}.png/`}
         alt="flag"

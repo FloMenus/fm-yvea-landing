@@ -25,7 +25,6 @@ export default function AnnualRegistration() {
       </div>
       <div className="annual_registration_right">
         <img
-          layout="fill"
           className="annual_registration_arrow arrow1"
           src="/medias/shapes/arrow1.svg"
           alt="arrow"
@@ -35,14 +34,12 @@ export default function AnnualRegistration() {
           target="_blank"
         >
           <img
-            layout="fill"
             src="/medias/book.png"
             className="annual_registration_illustration"
             alt="book"
           />
         </Link>
         <img
-          layout="fill"
           className="annual_registration_arrow arrow2"
           src="/medias/shapes/arrow2.svg"
           alt="arrow"

@@ -24,7 +24,6 @@ export default function ObjectivesSection() {
             internationaux en proposant des solutions efficaces et accessibles.
           </p>
           <img
-            layout="fill"
             className={styles.objective_img}
             src="/medias/goal.png"
             alt="goal illustration"
@@ -37,7 +36,6 @@ export default function ObjectivesSection() {
         </h4>
         <div className={styles.objective_paragraph_and_img}>
           <img
-            layout="fill"
             className={styles.objective_img}
             src="/medias/shield.png"
             alt="shield illustration"

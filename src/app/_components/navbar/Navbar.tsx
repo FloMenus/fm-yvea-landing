@@ -15,6 +15,7 @@ export default function Navbar() {
   const [isNavBarHidden, setIsNavBarHidden] = useState(false);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
 
