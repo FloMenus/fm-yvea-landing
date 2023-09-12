@@ -61,6 +61,28 @@ export default function Carousel() {
           src="/medias/brands/promaritime.png"
           alt="brand"
         />
+
+        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
+        <img className="slide" src="/medias/brands/midas.png" alt="brand" />
+        <img className="slide" src="/medias/brands/abb.png" alt="brand" />
+        <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
+        <img
+          className="slide"
+          src="/medias/brands/danube-international.png"
+          alt="brand"
+        />
+        <img className="slide" src="/medias/brands/ksb.png" alt="brand" />
+        <img
+          className="slide"
+          src="/medias/brands/motus-africa.png"
+          alt="brand"
+        />
+        <img className="slide" src="/medias/brands/perenco.png" alt="brand" />
+        <img
+          className="slide"
+          src="/medias/brands/promaritime.png"
+          alt="brand"
+        />
       </div>
     </div>
   );

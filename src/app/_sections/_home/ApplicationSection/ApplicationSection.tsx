@@ -70,6 +70,8 @@ export default function ApplicationSection() {
 
   return (
     <>
+      {console.log(counter)}
+      {console.log(timeElapsed)}
       <div className="application_container">
         <div className="application_container_header">
           <h4 className="application_container_header_title">
