@@ -7,21 +7,18 @@ export default function Earth() {
   const [redPointers, setRedPointers] = useState(false);
 
   // Plane States
-  // const [plane, setPlane] = useState(false);
   const [initialPlanePosition, setInitialPlanePosition] = useState({
     x: 330,
     y: 50,
   });
   const [planePosition, setPlanePosition] = useState(initialPlanePosition);
   //   Truck States
-  // const [truck, setTruck] = useState(false);
   const [initialTruckPosition, setInitialTruckPosition] = useState({
     x: 300,
     y: 0,
   });
   const [truckPosition, setTruckPosition] = useState(initialTruckPosition);
   // Boat States
-  // const [boat, setBoat] = useState(false);
   const [initialBoatPosition, setInitialBoatPosition] = useState({
     x: -310,
     y: 0,
@@ -29,7 +26,6 @@ export default function Earth() {
   const [boatPosition, setBoatPosition] = useState(initialBoatPosition);
 
   //   Animation Trigger
-  // const [vehiculeAnimation, setVehiculeAnimation] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Animation function for vehicules
@@ -83,15 +79,14 @@ export default function Earth() {
   //   Trigger white lines and red pointers animation
   useEffect(() => {
     setTimeout(() => {
-      setWhiteLines(true);
+      setRedPointers(true);
     }, 200);
     setTimeout(() => {
-      setRedPointers(true);
+      setWhiteLines(true);
     }, 500);
   }, []);
 
   // Set scrolled to true when user scroll down 1 time
-
   useEffect(() => {
     if (typeof window === "undefined") return;
     const handleScroll = () => {

@@ -1,5 +1,5 @@
 .slider {
-  height: 60px;
+  height: 80px;
   position: relative;
   width: 100%;
   display: grid;
@@ -16,7 +16,7 @@
 
 .slide {
   width: 130px;
-  height: 60px;
+  height: 80px;
   margin: 0 10px;
   display: grid;
   place-items: center;
