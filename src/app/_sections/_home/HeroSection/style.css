@@ -4,7 +4,6 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
 }
 .hero_left {
   width: 50%;
@@ -38,7 +37,7 @@
   width: 189px;
   height: 56px;
   border-radius: 40px;
-  background: #00c5c7;
+  background: #009fc7;
   border: none;
   cursor: pointer;
   position: relative;
@@ -57,7 +56,7 @@
   content: "";
   width: 189px;
   height: 56px;
-  background-color: #09aaac;
+  background-color: #0185a7;
   display: block;
   position: absolute;
   top: 4px;

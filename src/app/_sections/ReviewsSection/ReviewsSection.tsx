@@ -22,12 +22,12 @@ export default function ReviewsSection() {
               alt="Businesswoman image"
             />
             <div className="review_author">
-              <h5 className="review_name">Laurence RAGAIGNE</h5>
-              <h6 className="review_job">
+              <h4 className="review_name">Laurence RAGAIGNE</h4>
+              <h5 className="review_job">
                 Export Sales Administration,
                 <br />
                 DANUBE INTERNATIONAL
-              </h6>
+              </h5>
             </div>
           </div>
         </div>
@@ -49,33 +49,16 @@ export default function ReviewsSection() {
               alt="Businesswoman image"
             />
             <div className="review_author">
-              <h5 className="review_name">SABRINA DAEL</h5>
-              <h6 className="review_job">
+              <h4 className="review_name">Sabrina DAEL</h4>
+              <h5 className="review_job">
                 Export Coordinator,
                 <br />
                 MIDAS (MESA SP)
-              </h6>
+              </h5>
             </div>
           </div>
         </div>
       </div>
-      {/* <Image
-      width={52}
-      height={52}  className="geometric" src="/medias/geometric1.svg" alt="earth" />
-      <Image
-      width={52}
-      height={52}  className="geometric2" src="/medias/geometric1.svg" alt="earth" />
-      <Image
-      width={52}
-      height={52}  className="geometric3" src="/medias/geometric2.svg" alt="earth" /> */}
-      {/* <div className="contact_text">
-        <h4 className="contact_title">Besoin d'informations spécifiques ?</h4>
-        <p className="contact_paragraph">
-          Notre expertise est à votre disposition ! Choisissez parmi les options
-          qui vous conviennent pour solliciter notre assistance :
-        </p>
-      </div>
-       */}
     </div>
   );
 }

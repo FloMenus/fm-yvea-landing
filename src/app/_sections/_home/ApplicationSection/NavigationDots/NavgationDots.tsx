@@ -18,6 +18,7 @@ export default function NavigationDots({
           className={`navigation_dot ${i === activeIndex ? "active" : ""}`}
           onClick={() => onClick(i)}
           disabled={disabled}
+          title="Changer de slide"
         ></button>
       ))}
     </div>
