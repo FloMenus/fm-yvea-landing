@@ -11,7 +11,7 @@ export const countriesData: Country[] = [
   },
   {
     name: "Arabie Saoudite",
-    flag: "/medias/country_flags/Arabie Saoudite.png",
+    flag: "/medias/country_flags/ArabieSaoudite.png",
   },
   {
     name: "Botswana",
@@ -35,11 +35,11 @@ export const countriesData: Country[] = [
   },
   {
     name: "Côte d'Ivoire",
-    flag: "/medias/country_flags/Côte d'Ivoire.png",
+    flag: "/medias/country_flags/CôtedIvoire.png",
   },
   {
     name: "Emirats Arabes Unis",
-    flag: "/medias/country_flags/Emirats Arabes Unis.png",
+    flag: "/medias/country_flags/EmiratsArabesUnis.png",
   },
   {
     name: "Egypte",
