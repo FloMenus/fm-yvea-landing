@@ -12,7 +12,9 @@ export default function Missions() {
           <h4 className="missions_section_mission_title">
             Vérifier la bonne constitution de votre dossier PVoC
           </h4>
-          <img
+          <Image
+            width={200}
+            height={200}
             src="/medias/missions_illustrations/dossier_check.png"
             alt="dossier pvoc check"
           />
@@ -22,7 +24,12 @@ export default function Missions() {
           <h4 className="missions_section_mission_title">
             Présenter le dossier à l'organisme certificateur
           </h4>
-          <img src="/medias/missions_illustrations/graph.png" alt="graph" />
+          <Image
+            width={200}
+            height={200}
+            src="/medias/missions_illustrations/graph.png"
+            alt="graph"
+          />
         </div>
 
         <div className="missions_section_mission">
@@ -30,7 +37,9 @@ export default function Missions() {
             Suivre l'avancée de votre dossier jusqu'à l'édition de votre
             certificat
           </h4>
-          <img
+          <Image
+            width={200}
+            height={200}
             src="/medias/missions_illustrations/eye_track.png"
             alt="eye track"
           />
@@ -40,7 +49,9 @@ export default function Missions() {
           <h4 className="missions_section_mission_title">
             Répondre à vos questions, apporter ses conseils et vous épauler
           </h4>
-          <img
+          <Image
+            width={200}
+            height={200}
             src="/medias/missions_illustrations/q_a.png"
             alt="Question & Answers"
           />
@@ -50,7 +61,9 @@ export default function Missions() {
           <h4 className="missions_section_mission_title">
             Vous communiquer votre certificat au format PDF
           </h4>
-          <img
+          <Image
+            width={200}
+            height={200}
             src="/medias/missions_illustrations/dossier_check2.png"
             alt="Dossier check"
           />

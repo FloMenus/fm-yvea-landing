@@ -38,14 +38,19 @@ export default function ContactButtons() {
           onClick={() => setOpenPhone(true)}
           className="contact_button call"
         >
-          <img src="/medias/telephone.png" alt="call" />
+          <Image
+            width={28}
+            height={28}
+            src="/medias/telephone.png"
+            alt="call"
+          />
           <h5 className="contact_button_title">Appeler</h5>
         </button>
         <button
           onClick={() => setOpenMail(true)}
           className="contact_button mail"
         >
-          <img src="/medias/mail.png" alt="mail" />
+          <Image width={28} height={28} src="/medias/mail.png" alt="mail" />
           <h5 className="contact_button_title">Prendre rendez-vous</h5>
         </button>
       </div>

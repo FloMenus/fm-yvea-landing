@@ -23,8 +23,10 @@ export default function ObjectivesSection() {
             Nous nous engageons donc à fluidifier les échanges commerciaux
             internationaux en proposant des solutions efficaces et accessibles.
           </p>
-          <img
+          <Image
             className={styles.objective_img}
+            width={300}
+            height={300}
             src="/medias/goal.png"
             alt="goal illustration"
           />
@@ -35,8 +37,10 @@ export default function ObjectivesSection() {
           Notre devoir : La protection de vos données
         </h4>
         <div className={styles.objective_paragraph_and_img}>
-          <img
+          <Image
             className={styles.objective_img}
+            width={300}
+            height={300}
             src="/medias/shield.png"
             alt="shield illustration"
           />

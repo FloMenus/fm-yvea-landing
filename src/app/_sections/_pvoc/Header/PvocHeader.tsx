@@ -19,7 +19,9 @@ export default function PvocHeader() {
           l’acheteur et risque d’être détruite!
         </p>
       </div>
-      <img
+      <Image
+        width={256}
+        height={256}
         className="pvoc_header_img"
         src="/medias/documents.png"
         alt="pvoc_header"

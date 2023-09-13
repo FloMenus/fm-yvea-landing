@@ -18,68 +18,194 @@ export default function Carousel() {
   return (
     <div className="slider">
       <div className="slide-track">
-        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
-        <img className="slide" src="/medias/brands/midas.png" alt="brand" />
-        <img className="slide" src="/medias/brands/abb.png" alt="brand" />
-        <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/4b-group.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/midas.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/abb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/actemium.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/danube-international.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/ksb.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/ksb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/motus-africa.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/perenco.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/perenco.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/promaritime.png"
           alt="brand"
         />
 
-        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
-        <img className="slide" src="/medias/brands/midas.png" alt="brand" />
-        <img className="slide" src="/medias/brands/abb.png" alt="brand" />
-        <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/4b-group.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/midas.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/abb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/actemium.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/danube-international.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/ksb.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/ksb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/motus-africa.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/perenco.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/perenco.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/promaritime.png"
           alt="brand"
         />
 
-        <img className="slide" src="/medias/brands/4b-group.png" alt="brand" />
-        <img className="slide" src="/medias/brands/midas.png" alt="brand" />
-        <img className="slide" src="/medias/brands/abb.png" alt="brand" />
-        <img className="slide" src="/medias/brands/actemium.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/4b-group.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/midas.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/abb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/actemium.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/danube-international.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/ksb.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/ksb.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/motus-africa.png"
           alt="brand"
         />
-        <img className="slide" src="/medias/brands/perenco.png" alt="brand" />
-        <img
+        <Image
           className="slide"
+          width={150}
+          height={92}
+          src="/medias/brands/perenco.png"
+          alt="brand"
+        />
+        <Image
+          className="slide"
+          width={150}
+          height={92}
           src="/medias/brands/promaritime.png"
           alt="brand"
         />

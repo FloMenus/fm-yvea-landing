@@ -38,7 +38,9 @@ export default function Navbar() {
     <header className={`navbar ${isNavBarHidden ? "hidden" : ""}`}>
       <div className="navbar_container">
         <Link href="/">
-          <img
+          <Image
+            height={48}
+            width={133}
             className="logo"
             src="/medias/logo/logo_and_yvea.svg"
             alt="logo"

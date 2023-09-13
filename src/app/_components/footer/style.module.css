@@ -39,7 +39,7 @@
 
 .logo_faded_container {
   position: absolute;
-  height: 330px;
+  height: max-content;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

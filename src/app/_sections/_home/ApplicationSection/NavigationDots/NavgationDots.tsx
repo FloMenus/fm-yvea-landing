@@ -20,10 +20,6 @@ export default function NavigationDots({
           disabled={disabled}
         ></button>
       ))}
-      {/* <button className={`navigation_dot `}></button>
-      <button className={`navigation_dot `}></button>
-      <button className={`navigation_dot `}></button>
-      <button className={`navigation_dot `}></button> */}
     </div>
   );
 }

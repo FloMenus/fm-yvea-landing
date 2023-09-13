@@ -23,14 +23,18 @@ export default function RouteAProcedure() {
         <div className="routeA_section_steps_timeline">
           {RouteAProcedureData.map((step) => (
             <div className="routeA_section_step" key={step.title}>
-              <img
+              <Image
+                width={39}
+                height={39}
                 className="routeA_section_step_circle"
                 src="/medias/shapes/circle.svg"
                 alt="step"
               />
             </div>
           ))}
-          <img
+          <Image
+            width={855}
+            height={17}
             className="routeA_section_steps_timeline_line"
             src="/medias/shapes/line.svg"
             alt="arrow"

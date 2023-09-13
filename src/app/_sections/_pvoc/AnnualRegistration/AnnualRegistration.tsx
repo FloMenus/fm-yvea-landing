@@ -24,7 +24,9 @@ export default function AnnualRegistration() {
         </p>
       </div>
       <div className="annual_registration_right">
-        <img
+        <Image
+          width={90}
+          height={30}
           className="annual_registration_arrow arrow1"
           src="/medias/shapes/arrow1.svg"
           alt="arrow"
@@ -33,13 +35,17 @@ export default function AnnualRegistration() {
           href="https://app-eu1.hubspot.com/documents/25904801/view/532596303?accessId=1610a1"
           target="_blank"
         >
-          <img
+          <Image
+            width={300}
+            height={375}
             src="/medias/book.png"
             className="annual_registration_illustration"
             alt="book"
           />
         </Link>
-        <img
+        <Image
+          width={50}
+          height={90}
           className="annual_registration_arrow arrow2"
           src="/medias/shapes/arrow2.svg"
           alt="arrow"

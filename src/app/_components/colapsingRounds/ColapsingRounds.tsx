@@ -21,8 +21,9 @@ export default function ColapsingRounds() {
           className={`colapsing-round
         ${colapsed ? "colapsed-round" : ""}`}
         >
-          <img
-            className="colapsing-round-img"
+          <Image
+            height={70}
+            width={70}
             src="/medias/icons/folder.png"
             alt="round"
           />
@@ -43,8 +44,9 @@ export default function ColapsingRounds() {
           className={`colapsing-round
         ${colapsed ? "colapsed-round" : ""}`}
         >
-          <img
-            className="colapsing-round-img"
+          <Image
+            height={70}
+            width={70}
             src="/medias/icons/clock.png"
             alt="round"
           />
@@ -65,8 +67,9 @@ export default function ColapsingRounds() {
           className={`colapsing-round
         ${colapsed ? "colapsed-round" : ""}`}
         >
-          <img
-            className="colapsing-round-img"
+          <Image
+            height={70}
+            width={70}
             src="/medias/icons/chart.png"
             alt="round"
           />

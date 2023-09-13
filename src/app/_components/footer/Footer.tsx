@@ -7,7 +7,9 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img
+        <Image
+          width={205}
+          height={74}
           className={styles.logo}
           src="/medias/logo/logo_and_yvea.svg"
           alt="logo"
@@ -52,7 +54,9 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.logo_faded_container}>
-          <img
+          <Image
+            width={497}
+            height={281}
             src="/medias/logo/logo_faded.svg"
             className={styles.logo_faded}
             alt="logo faded"
