@@ -12,7 +12,8 @@
 }
 
 .flag {
-  width: 34px;
+  /* width: 34px;
+  height: 34px; */
   z-index: 1;
 }
 

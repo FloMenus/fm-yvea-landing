@@ -35,12 +35,14 @@ export default function LanguageSelector() {
       onMouseOver={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img
+      <Image
         className={styles.flag}
+        width={34}
+        height={34}
         src={
           country
-            ? `/medias/countries/${country}.png/`
-            : "/medias/countries/FR.png/"
+            ? `/medias/countries/${country}.png`
+            : "/medias/countries/FR.png"
         }
         alt="flag"
       />
