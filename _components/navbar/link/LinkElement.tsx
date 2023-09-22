@@ -31,6 +31,7 @@ export default function LinkElement({ children }: { children: LinkElement }) {
   const [openMail, setOpenMail] = useState(false);
 
   const { t } = useTranslation("navbar");
+  const { i18n } = useTranslation();
 
   const handleMouseEnter = () => {
     activate(true);
@@ -67,7 +68,13 @@ export default function LinkElement({ children }: { children: LinkElement }) {
       {/* Mail modal */}
       <ModalComponent open={openMail} handleClose={() => setOpenMail(false)}>
         <Widget
-          id="brJmmHYw?typeform-source=yvea.io"
+          id={
+            i18n.language === "FR"
+              ? "https://l697wovmila.typeform.com/to/r0SoBnz8"
+              : i18n.language === "EN"
+              ? "https://l697wovmila.typeform.com/to/PVjaWpM5"
+              : "https://l697wovmila.typeform.com/to/r0SoBnz8"
+          }
           className="typeform-inline-widget"
           style={{ width: "100%", height: "95%", padding: 0 }}
         />

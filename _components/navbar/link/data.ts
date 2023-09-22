@@ -16,6 +16,16 @@ export const data = [
   {
     title: "Tarifs",
     url: "/pricing",
+    sublinks: [
+      {
+        title: "Offre 1",
+        url: "/pricing/offer-1",
+      },
+      {
+        title: "Offre 2",
+        url: "/pricing/offer-2",
+      },
+    ],
   },
   {
     title: "Contact",

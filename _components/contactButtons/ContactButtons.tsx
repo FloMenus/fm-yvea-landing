@@ -6,12 +6,16 @@ import ModalComponent from "../modal/Modal";
 import { Widget } from "@typeform/embed-react";
 import { InlineWidget } from "react-calendly";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function ContactButtons() {
+  const { i18n } = useTranslation();
   const [openPhone, setOpenPhone] = useState(false);
   const [openMail, setOpenMail] = useState(false);
+
   return (
     <>
+      {console.log(i18n.language)}
       {/* Phone modal */}
       <ModalComponent open={openPhone} handleClose={() => setOpenPhone(false)}>
         <InlineWidget
@@ -27,7 +31,13 @@ export default function ContactButtons() {
       {/* Mail modal */}
       <ModalComponent open={openMail} handleClose={() => setOpenMail(false)}>
         <Widget
-          id="brJmmHYw?typeform-source=yvea.io"
+          id={
+            i18n.language === "fr"
+              ? "https://l697wovmila.typeform.com/to/r0SoBnz8"
+              : i18n.language === "en"
+              ? "https://l697wovmila.typeform.com/to/PVjaWpM5"
+              : "https://l697wovmila.typeform.com/to/r0SoBnz8"
+          }
           className="typeform-inline-widget"
           style={{ width: "100%", height: "100%", padding: 0 }}
         />

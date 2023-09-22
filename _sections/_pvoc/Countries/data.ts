@@ -12,6 +12,7 @@ export const countriesData: Country[] = [
   {
     name: "Arabie Saoudite",
     flag: "/medias/country_flags/ArabieSaoudite.png",
+    url: "/pvoc/saudi-arabia",
   },
   {
     name: "Botswana",

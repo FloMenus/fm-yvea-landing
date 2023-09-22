@@ -40,7 +40,7 @@
     rgba(27, 1, 155, 0.13) 100%
   );
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +101,7 @@
 @media screen and (max-width: 974px) {
   .colapsing_rounds {
     flex-direction: column;
-    /* gap: 0; */
+    gap: 12px;
     flex-wrap: nowrap;
     height: 100%;
     width: 100%;
