@@ -46,7 +46,7 @@
   display: flex;
   width: 100%;
   padding: 16px;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 16px;
   background: linear-gradient(314deg, #016f9b 0%, #0088c7 100%);
   color: #fff;
