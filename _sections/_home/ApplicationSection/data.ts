@@ -9,7 +9,7 @@ export const applicationData = [
       {
         title: "Estimation instantanée du coût du certificat",
         description:
-          "Éliminez les surpises en simulant le coût dès la négociation avec vos clients",
+          "Éliminez les surprises en simulant le coût dès la négociation avec vos clients",
       },
     ],
     image: "/medias/application_illustrations/certification_cost.png",
