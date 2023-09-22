@@ -3,7 +3,7 @@ import Footer from "../_components/footer/Footer";
 import { ni18nConfig } from "../ni18n.config";
 import { appWithI18Next } from "ni18n";
 import Head from "next/head";
-import styles from "./globals.module.css";
+import "./globals.css";
 
 function MyApp({ Component, pageProps }: any) {
   return (
@@ -14,9 +14,9 @@ function MyApp({ Component, pageProps }: any) {
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follows" />
       </Head>
-      <div className={styles.app}>
+      <div className="app">
         <Navbar />
-        <div className={styles.main_content}>
+        <div className="main_content">
           <Component {...pageProps} />
         </div>
         <Footer />
