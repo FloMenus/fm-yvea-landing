@@ -37,7 +37,11 @@ export default function LanguageSelector() {
     >
       <img
         className={styles.flag}
-        src={`/medias/countries/${country}.png/`}
+        src={
+          country
+            ? `/medias/countries/${country}.png/`
+            : "/medias/countries/FR.png/"
+        }
         alt="flag"
       />
       {activated && (
