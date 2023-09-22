@@ -1,4 +1,4 @@
-import "./globals.css";
+import styles from "./globals.module.css";
 import type { Metadata } from "next";
 import { Inter, Nunito_Sans } from "next/font/google";
 import Navbar from "../_components/navbar/Navbar";
@@ -25,7 +25,7 @@ export default function RootLayout({
       </Head>
       <body className={nunito_sans.className}>
         <Navbar />
-        <div className="main_content">{children}</div>
+        <div className={styles.main_content}>{children}</div>
         <Footer />
       </body>
     </html>
