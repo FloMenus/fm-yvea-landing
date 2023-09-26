@@ -15,15 +15,15 @@ export const data = [
   },
   {
     title: "Tarifs",
-    url: "/pricing",
+    url: "",
     sublinks: [
       {
-        title: "Offre 1",
-        url: "/pricing/offer-1",
+        title: "Offre Free",
+        url: "/pricing/offers/free",
       },
       {
-        title: "Offre 2",
-        url: "/pricing/offer-2",
+        title: "Offre Pro",
+        url: "/pricing/offers/pro",
       },
     ],
   },

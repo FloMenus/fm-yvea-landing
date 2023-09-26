@@ -1,0 +1,182 @@
+[
+  {
+    "scope": "Electrical and electronic devices (AC 50-1000V or DC 75-1500V)",
+    "approbation": "1a",
+    "reglementation": "BD-142004-01 and TC-143307-01\nTechnical Regulation for Low-Voltage Electrical Equipment and Appliances"
+  },
+  {
+    "scope": "Lubricating oil for various uses",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-01\nTechnical Regulation for Lubricating Oil"
+  },
+  {
+    "scope": "Used refined or recycled oils as essential oils in the composition of lubricating oils",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-01\nTechnical Regulation for Lubricating Oil"
+  },
+  {
+    "scope": "Brake fluid, automatic transmission fluid",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-01\nTechnical Regulation for Lubricating Oil"
+  },
+  {
+    "scope": "Insulation and cladding material",
+    "approbation": "3.0",
+    "reglementation": "M.A.-156-16-04-02\nTechnical Regulation for Building Materials - Part II: Insulating and Cladding Materials for Buildings"
+  },
+  {
+    "scope": "Bricks, tiles, marble and stone, sanitary ware and related products\n(Does not include cement tile and brick)",
+    "approbation": "3.0",
+    "reglementation": "M.A.-161-17-07-03\nTechnical Regulations for Building Materials - Part IV Bricks, Tiles, Ceramics, Sanitary Ware and Related Products"
+  },
+  {
+    "scope": "Ceramic products\n(Notes: Saudi Quality Mark required)",
+    "approbation": "5",
+    "reglementation": "M.A.-161-17-07-03\nTechnical Regulations for Building Materials - Part IV Bricks, Tiles, Ceramics, Sanitary Ware and Related Products"
+  },
+  {
+    "scope": "Emulsion paints, oil paints and varnishes for use in residential and commercial buildings, and public utilities",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-03\nTechnical Regulation for Paints (Dyes) and Varnishes"
+  },
+  {
+    "scope": "Electric self-balancing plates (scooters)",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-06-03-04\nTechnical Regulation for Electric Self-Balancing Boards (Scooter)"
+  },
+  {
+    "scope": "Car batteries",
+    "approbation": "3.0",
+    "reglementation": "M.A.-166-18-04-02\nTechnical Regulations for Electrical Batteries"
+  },
+  {
+    "scope": "Portable batteries, such as button cells, weighing less than 1kg (Exclude batteries for military, medical devices, and aeronautical industry)",
+    "approbation": "3.0",
+    "reglementation": "M.A.-166-18-04-02\nTechnical Regulations for Electrical Batteries"
+  },
+  {
+    "scope": "New original spare parts that are used for motor vehicles, such as seat belts, motor vehicle glass, vehicle lamps\n(Importer is approved licensed distributors for the spare part manufacturer of the new original spare parts)",
+    "approbation": "1a",
+    "reglementation": "M.A.-162-17-04-02\nTechnical Regulations for Auto Spare Parts*"
+  },
+  {
+    "scope": "New commercial spare parts\nImporter is any other suppliers",
+    "approbation": "3.0",
+    "reglementation": "M.A.-162-17-04-02\nTechnical Regulations for Auto Spare Parts*"
+  },
+  {
+    "scope": "Equipment and clothing designed to protect the health and safety of its user against potential hazards\n(Excludes medical equipment and protective clothing for medical or military uses)",
+    "approbation": "3.0",
+    "reglementation": "M.A.-165-18-04-04\nTechnical Regulations for Personal Protective Clothing and Equipment"
+  },
+  {
+    "scope": "Products that contain at least 80% by weight of textile component that are not children’s product or underwear",
+    "approbation": "1a",
+    "reglementation": "M.A.-164-18-05-02\nTechnical Regulation of Textile Products*"
+  },
+  {
+    "scope": "Children’s product or underwear",
+    "approbation": "3.0",
+    "reglementation": "M.A.-164-18-05-02\nTechnical Regulation of Textile Products*"
+  },
+  {
+    "scope": "Detergents, surfactant and soap",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-02\nTechnical Regulations for Detergents"
+  },
+  {
+    "scope": "Unpackaged detergents that are supplied in large containers for the purpose of refill and repackaging",
+    "approbation": "3.0",
+    "reglementation": "M.A.-155-16-03-02\nTechnical Regulations for Detergents"
+  },
+  {
+    "scope": "Adhesives and glue products (for example, structural adhesives, adhesives for leather, footwear, wood products, paper, packaging)",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Adhesives and Related Products"
+  },
+  {
+    "scope": "Tiny beads used in the accessories",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Jewelry Decoration and Accessories"
+  },
+  {
+    "scope": "Jewelry and accessories made of metals, plastics, glass or valuable material",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Jewelry Decoration and Accessories"
+  },
+  {
+    "scope": "Plastic and metal pipe system used in transport of water and electrical installations in building and accessories",
+    "approbation": "3.0",
+    "reglementation": "E.M. 171-19-06-02\nTechnical Regulations for Building Materials Part 5: Pipes for Water, Electricity and Gas Networks"
+  },
+  {
+    "scope": "Wireless communication devices (for example, mobile phones, headsets, smart devices)",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Telecommunications Devices"
+  },
+  {
+    "scope": "Packaging products: paper, cardboard, wood, plastics, textile, and any other materials used in packaging",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Packaging"
+  },
+  {
+    "scope": "Materials and surfaces in contact with food (for example, cooking equipment, tableware, food packaging materials and containers)",
+    "approbation": "3.0",
+    "reglementation": "E.M. 171-19-06-04\nTechnical Regulations for Food Safety in Kitchen Appliances"
+  },
+  {
+    "scope": "Footwear made of leather, textile, plastic or a mixture of these materials",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Shoes and Leather"
+  },
+  {
+    "scope": "Devices operating under pressure and their accessories (for example, fire extinguishers, pressure cookers)",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Pressure Devices and Equipment and their Accessories"
+  },
+  {
+    "scope": "Products for firefighting (for example, fire extinguisher, alarm systems, fire hoses",
+    "approbation": "3.0",
+    "reglementation": "M.A.-172-19-04-02\nTechnical Regulations for Firefighting Equipment and Materials"
+  },
+  {
+    "scope": "Doors and windows made of plastics, wood, glass or metal",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Doors and Windows"
+  },
+  {
+    "scope": "Accessories for doors and windows",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Doors and Windows"
+  },
+  {
+    "scope": "Warehouse doors, armored doors, fire-proof doors",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Doors and Windows"
+  },
+  {
+    "scope": "Portable machines",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Machinery Safety – Part 1: Portable and Oriented Machines"
+  },
+  {
+    "scope": "Cutting and sawing machines",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Machinery Safety – Part 1: Portable and Oriented Machines"
+  },
+  {
+    "scope": "Cranes",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Machinery Safety – Part 1: Portable and Oriented Machines"
+  },
+  {
+    "scope": "Mobile machines used in general construction",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Machinery Safety – Part 1: Portable and Oriented Machines"
+  },
+  {
+    "scope": "Drilling machines",
+    "approbation": "1a",
+    "reglementation": "Technical Regulations for Machinery Safety – Part 1: Portable and Oriented Machines"
+  }
+]

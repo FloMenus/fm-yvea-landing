@@ -1,0 +1,182 @@
+[
+  {
+    "scope": "Accessoires pour portes et fenêtres",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les portes et les fenêtres"
+  },
+  {
+    "scope": "Adhésifs et produits de collage (par exemple, adhésifs structuraux, adhésifs pour cuir, chaussures, produits en bois, papier, emballage)",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les adhésifs et les produits connexes"
+  },
+  {
+    "scope": "Appareils de communication sans fil (par exemple, téléphones mobiles, casques, dispositifs intelligents)",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les dispositifs de télécommunications"
+  },
+  {
+    "scope": "Appareils électriques et électroniques (AC 50-1000V ou DC 75-1500V)",
+    "approbation": "1a",
+    "reglementation": "BD-142004-01 and TC-143307-01\nRéglementation technique pour les équipements électriques et les appareils basse tension"
+  },
+  {
+    "scope": "Appareils fonctionnant sous pression et leurs accessoires (par exemple, extincteurs, autocuiseurs)",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les dispositifs et équipements de pression et leurs accessoires"
+  },
+  {
+    "scope": "Batteries de voiture",
+    "approbation": "3",
+    "reglementation": "M.A.-166-18-04-02\nRéglementation technique pour les batteries électriques"
+  },
+  {
+    "scope": "Batteries portables, telles que les piles bouton, pesant moins de 1 kg (Exclut les batteries pour l'industrie militaire, les dispositifs médicaux et l'aéronautique)",
+    "approbation": "3",
+    "reglementation": "M.A.-166-18-04-02\nRéglementation technique pour les batteries électriques"
+  },
+  {
+    "scope": "Bijoux et accessoires en métaux, plastiques, verre ou matériaux précieux",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la décoration et les accessoires de bijoux"
+  },
+  {
+    "scope": "Briques, carreaux, marbre et pierre, articles sanitaires et produits connexes\n(Ne comprend pas les carreaux et les briques en ciment)",
+    "approbation": "3",
+    "reglementation": "M.A.-161-17-07-03\nRéglementation technique pour les matériaux de construction - Partie IV : Briques, carreaux, céramiques, articles sanitaires et produits connexes"
+  },
+  {
+    "scope": "Chaussures en cuir, textile, plastique ou un mélange de ces matériaux",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les chaussures et le cuir"
+  },
+  {
+    "scope": "Détergents non emballés fournis en grands contenants dans le but de remplissage et de reconditionnement",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-02\nRéglementation technique pour les détergents"
+  },
+  {
+    "scope": "Détergents, agents tensioactifs et savon",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-02\nRéglementation technique pour les détergents"
+  },
+  {
+    "scope": "Équipement et vêtements conçus pour protéger la santé et la sécurité de l'utilisateur contre les dangers potentiels\n(Exclut les équipements médicaux et les vêtements de protection à usage médical ou militaire)",
+    "approbation": "3",
+    "reglementation": "M.A.-165-18-04-04\nRéglementation technique pour les équipements de protection individuelle, vêtements et équipements"
+  },
+  {
+    "scope": "Grues",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la sécurité des machines - Partie 1 : Machines portatives et orientées"
+  },
+  {
+    "scope": "Huile de lubrification à usage divers",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-01\nRéglementation technique pour les huiles lubrifiantes"
+  },
+  {
+    "scope": "Huiles raffinées ou recyclées utilisées comme huiles essentielles dans la composition des huiles de lubrification",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-01\nRéglementation technique pour les huiles lubrifiantes"
+  },
+  {
+    "scope": "Liquide de frein, liquide de transmission automatique",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-01\nRéglementation technique pour les huiles lubrifiantes"
+  },
+  {
+    "scope": "Machines de découpe et de scie",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la sécurité des machines - Partie 1 : Machines portatives et orientées"
+  },
+  {
+    "scope": "Machines de forage",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la sécurité des machines - Partie 1 : Machines portatives et orientées"
+  },
+  {
+    "scope": "Machines mobiles utilisées dans la construction générale",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la sécurité des machines - Partie 1 : Machines portatives et orientées"
+  },
+  {
+    "scope": "Machines portables",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la sécurité des machines - Partie 1 : Machines portatives et orientées"
+  },
+  {
+    "scope": "Matériau d'isolation et de revêtement",
+    "approbation": "3",
+    "reglementation": "M.A.-156-16-04-02\nRéglementation technique pour les matériaux de construction - Partie II : Matériaux d'isolation et de revêtement pour les bâtiments"
+  },
+  {
+    "scope": "Matériaux et surfaces en contact avec les aliments (par exemple, équipement de cuisine, vaisselle, matériaux d'emballage alimentaire et contenants)",
+    "approbation": "3",
+    "reglementation": "E.M. 171-19-06-04\nRéglementation technique pour la sécurité alimentaire dans les appareils de cuisine\""
+  },
+  {
+    "scope": "Nouvelles pièces de rechange commerciales\n(L'importateur est tout autre fournisseur)",
+    "approbation": "3",
+    "reglementation": "M.A.-162-17-04-02\nRéglementation technique pour les pièces détachées automobiles"
+  },
+  {
+    "scope": "Nouvelles pièces de rechange d'origine utilisées pour les véhicules automobiles, telles que les ceintures de sécurité, les vitres de véhicules automobiles, les lampes de véhicules\n(L'importateur est un distributeur agréé du fabricant des pièces de rechange d'origine)",
+    "approbation": "1a",
+    "reglementation": "M.A.-162-17-04-02\nRéglementation technique pour les pièces détachées automobiles"
+  },
+  {
+    "scope": "Peintures en émulsion, peintures à l'huile et vernis utilisés dans les bâtiments résidentiels et commerciaux, et les services publics",
+    "approbation": "3",
+    "reglementation": "M.A.-155-16-03-03\nRéglementation technique pour les peintures et vernis"
+  },
+  {
+    "scope": "Petites perles utilisées dans les accessoires",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour la décoration et les accessoires de bijoux"
+  },
+  {
+    "scope": "Plaques électriques auto-équilibrantes (trottinettes)",
+    "approbation": "3",
+    "reglementation": "M.A.-155-06-03-04\nRéglementation technique pour les planches à équilibrage électrique (tronittinittes)"
+  },
+  {
+    "scope": "Portes de stockage, portes blindées, portes ignifuges",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les portes et les fenêtres"
+  },
+  {
+    "scope": "Portes et fenêtres en plastique, bois, verre ou métal",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour les portes et les fenêtres"
+  },
+  {
+    "scope": "Produit pour enfants ou sous-vêtement",
+    "approbation": "3",
+    "reglementation": "M.A.-164-18-05-02\nRéglementation technique pour les produits textiles*"
+  },
+  {
+    "scope": "Produits contenant au moins 80 % en poids de composants textiles, qui ne sont ni des produits pour enfants ni des sous-vêtements",
+    "approbation": "1a",
+    "reglementation": "M.A.-164-18-05-02\nRéglementation technique pour les produits textiles*"
+  },
+  {
+    "scope": "Produits d'emballage : papier, carton, bois, plastique, textile et tout autre matériau utilisé dans l'emballage",
+    "approbation": "1a",
+    "reglementation": "Réglementation technique pour l'emballage"
+  },
+  {
+    "scope": "Produits en céramique\n(Remarque : Marquage de qualité saoudien requis)",
+    "approbation": "5",
+    "reglementation": "M.A.-161-17-07-03\nRéglementation technique pour les matériaux de construction - Partie IV : Briques, carreaux, céramiques, articles sanitaires et produits connexes"
+  },
+  {
+    "scope": "Produits pour la lutte contre les incendies (par exemple, extincteurs, systèmes d'alarme, tuyaux d'incendie)",
+    "approbation": "3",
+    "reglementation": "M.A.-172-19-04-02\nRéglementation technique pour les équipements et les matériaux de lutte contre l'incendie"
+  },
+  {
+    "scope": "Système de tuyauterie en plastique et en métal utilisé dans le transport de l'eau et les installations électriques dans les bâtiments et les accessoires",
+    "approbation": "3",
+    "reglementation": "E.M. 171-19-06-02\nRéglementation technique pour les matériaux de construction - Partie 5 : Tuyaux pour les réseaux d'eau, d'électricité et de gaz"
+  }
+]
