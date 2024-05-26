@@ -1,5 +1,4 @@
 import styles from "./layout.module.css";
-import type { Metadata } from "next";
 import { Inter, Nunito_Sans } from "next/font/google";
 import Navbar from "../_components/navbar/Navbar";
 import Footer from "../_components/footer/Footer";
