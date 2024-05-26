@@ -28,7 +28,7 @@ export default function ObjectivesSection() {
             className={styles.objective_img}
             width={300}
             height={300}
-            src="/fm-yvea-landing/medias/goal.png"
+            src="/medias/goal.png"
             alt="goal illustration"
           />
         </div>
@@ -42,7 +42,7 @@ export default function ObjectivesSection() {
             className={styles.objective_img}
             width={300}
             height={300}
-            src="/fm-yvea-landing/medias/shield.png"
+            src="/medias/shield.png"
             alt="shield illustration"
           />
           <p className={`${styles.objective_paragraph} ${styles.text_right}`}>

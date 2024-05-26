@@ -30,7 +30,7 @@ export default function ProOffer() {
           </p>
           <Image
             className={styles.header_cover}
-            src="/fm-yvea-landing/medias/premium.png"
+            src="/medias/premium.png"
             width={300}
             height={300}
             alt="premium"

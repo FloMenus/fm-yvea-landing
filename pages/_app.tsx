@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: any) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/fm-yvea-landing/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follows" />

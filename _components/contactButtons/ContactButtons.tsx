@@ -51,7 +51,7 @@ export default function ContactButtons() {
           <Image
             width={28}
             height={28}
-            src="/fm-yvea-landing/medias/telephone.png"
+            src="/medias/telephone.png"
             alt="call"
           />
           <h5 className="contact_button_title">Appeler</h5>
@@ -60,12 +60,7 @@ export default function ContactButtons() {
           onClick={() => setOpenMail(true)}
           className="contact_button mail"
         >
-          <Image
-            width={28}
-            height={28}
-            src="/fm-yvea-landing/medias/mail.png"
-            alt="mail"
-          />
+          <Image width={28} height={28} src="/medias/mail.png" alt="mail" />
           <h5 className="contact_button_title">Prendre rendez-vous</h5>
         </button>
       </div>

@@ -41,8 +41,8 @@ export default function LanguageSelector() {
         height={34}
         src={
           country
-            ? `/fm-yvea-landing/medias/countries/${country}.png`
-            : "/fm-yvea-landing/medias/countries/FR.png"
+            ? `/medias/countries/${country}.png`
+            : "/medias/countries/FR.png"
         }
         alt="flag"
       />

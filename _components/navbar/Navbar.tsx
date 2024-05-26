@@ -43,7 +43,7 @@ export default function Navbar() {
             height={48}
             width={133}
             className={styles.lgo}
-            src="/fm-yvea-landing/medias/logo/logo_and_yvea.svg"
+            src="/medias/logo/logo_and_yvea.svg"
             alt="logo"
           />
         </Link>

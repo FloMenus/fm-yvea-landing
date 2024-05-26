@@ -18,7 +18,7 @@ export default function Pricing() {
         <Image
           width={200}
           height={200}
-          src="/fm-yvea-landing/medias/price.png"
+          src="/medias/price.png"
           alt="pricing_header"
         />
       </div>

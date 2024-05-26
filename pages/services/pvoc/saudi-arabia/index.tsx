@@ -19,7 +19,7 @@ export default function SaudiArabia() {
         <div className={styles.title_container}>
           <h1 className={styles.main_title}>{t("Arabie Saoudite")}</h1>
           <Image
-            src="/fm-yvea-landing/medias/country_flags/ArabieSaoudite.png"
+            src="/medias/country_flags/ArabieSaoudite.png"
             width={36}
             height={36}
             alt="Saudi Arabia"

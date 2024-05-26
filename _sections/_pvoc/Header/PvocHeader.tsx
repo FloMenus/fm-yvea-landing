@@ -23,7 +23,7 @@ export default function PvocHeader() {
         width={256}
         height={256}
         className={styles.pvoc_header_img}
-        src="/fm-yvea-landing/medias/documents.png"
+        src="/medias/documents.png"
         alt="pvoc_header"
       />
     </div>

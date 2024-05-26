@@ -22,7 +22,7 @@ export default function ReviewsSection() {
               width={52}
               height={52}
               className={styles.review_image}
-              src="/fm-yvea-landing/medias/avatars/businesswoman.png"
+              src="/medias/avatars/businesswoman.png"
               alt="Businesswoman image"
             />
             <div className={styles.review_author}>
@@ -50,7 +50,7 @@ export default function ReviewsSection() {
               width={52}
               height={52}
               className={styles.review_image}
-              src="/fm-yvea-landing/medias/avatars/businesswoman2.png"
+              src="/medias/avatars/businesswoman2.png"
               alt="Businesswoman image"
             />
             <div className={styles.review_author}>

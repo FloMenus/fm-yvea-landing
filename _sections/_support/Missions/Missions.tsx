@@ -19,7 +19,7 @@ export default function Missions() {
           <Image
             width={200}
             height={200}
-            src="/fm-yvea-landing/medias/missions_illustrations/dossier_check.png"
+            src="/medias/missions_illustrations/dossier_check.png"
             alt="dossier pvoc check"
           />
         </div>
@@ -31,7 +31,7 @@ export default function Missions() {
           <Image
             width={200}
             height={200}
-            src="/fm-yvea-landing/medias/missions_illustrations/graph.png"
+            src="/medias/missions_illustrations/graph.png"
             alt="graph"
           />
         </div>
@@ -45,7 +45,7 @@ export default function Missions() {
           <Image
             width={200}
             height={200}
-            src="/fm-yvea-landing/medias/missions_illustrations/eye_track.png"
+            src="/medias/missions_illustrations/eye_track.png"
             alt="eye track"
           />
         </div>
@@ -59,7 +59,7 @@ export default function Missions() {
           <Image
             width={200}
             height={200}
-            src="/fm-yvea-landing/medias/missions_illustrations/q_a.png"
+            src="/medias/missions_illustrations/q_a.png"
             alt="Question & Answers"
           />
         </div>
@@ -71,7 +71,7 @@ export default function Missions() {
           <Image
             width={200}
             height={200}
-            src="/fm-yvea-landing/medias/missions_illustrations/dossier_check2.png"
+            src="/medias/missions_illustrations/dossier_check2.png"
             alt="Dossier check"
           />
         </div>
