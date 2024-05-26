@@ -32,7 +32,7 @@ export default function RouteAProcedure() {
                 width={39}
                 height={39}
                 className={styles.routeA_section_step_circle}
-                src="/medias/shapes/circle.svg"
+                src="/fm-yvea-landing/medias/shapes/circle.svg"
                 alt="step"
               />
             </div>
@@ -41,7 +41,7 @@ export default function RouteAProcedure() {
             width={855}
             height={17}
             className={styles.routeA_section_steps_timeline_line}
-            src="/medias/shapes/line.svg"
+            src="/fm-yvea-landing/medias/shapes/line.svg"
             alt="arrow"
           />
         </div>

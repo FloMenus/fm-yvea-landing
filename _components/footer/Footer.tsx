@@ -13,7 +13,7 @@ export default function Footer() {
           width={205}
           height={74}
           className={styles.logo}
-          src="/medias/logo/logo_and_yvea.svg"
+          src="/fm-yvea-landing/medias/logo/logo_and_yvea.svg"
           alt="logo"
         />
         <div className={styles.links_container}>
@@ -59,7 +59,7 @@ export default function Footer() {
           <Image
             width={497}
             height={281}
-            src="/medias/logo/logo_faded.svg"
+            src="/fm-yvea-landing/medias/logo/logo_faded.svg"
             className={styles.logo_faded}
             alt="logo faded"
           />

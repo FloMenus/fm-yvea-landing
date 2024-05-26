@@ -12,7 +12,7 @@ export const applicationData = [
           "Éliminez les surprises en simulant le coût dès la négociation avec vos clients",
       },
     ],
-    image: "/medias/application_illustrations/certification_cost.png",
+    image: "/fm-yvea-landing/medias/application_illustrations/certification_cost.png",
   },
   {
     text: [
@@ -27,7 +27,7 @@ export const applicationData = [
           "Gagnez du temps en retrouvant et en réutilisant facilement vos données précédentes",
       },
     ],
-    image: "/medias/application_illustrations/history.png",
+    image: "/fm-yvea-landing/medias/application_illustrations/history.png",
   },
   {
     text: [
@@ -37,7 +37,7 @@ export const applicationData = [
           "Simplifiez vos formalités en accédant directement aux documents nécessaires",
       },
     ],
-    image: "/medias/application_illustrations/documents.png",
+    image: "/fm-yvea-landing/medias/application_illustrations/documents.png",
   },
 ];
 

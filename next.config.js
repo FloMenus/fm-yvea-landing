@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: process.env.NODE_ENV === "production" ? "/fm-yvea-landing" : "",
-};
+const nextConfig = {};
 
 module.exports = nextConfig;

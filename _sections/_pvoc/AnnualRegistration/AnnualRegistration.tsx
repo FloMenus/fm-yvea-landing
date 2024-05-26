@@ -28,7 +28,7 @@ export default function AnnualRegistration() {
           width={90}
           height={30}
           className={`${styles.annual_registration_arrow} ${styles.arrow1}`}
-          src="/medias/shapes/arrow1.svg"
+          src="/fm-yvea-landing/medias/shapes/arrow1.svg"
           alt="arrow"
         />
         <Link
@@ -38,7 +38,7 @@ export default function AnnualRegistration() {
           <Image
             width={300}
             height={375}
-            src="/medias/book.png"
+            src="/fm-yvea-landing/medias/book.png"
             className={styles.annual_registration_illustration}
             alt="book"
           />
@@ -47,7 +47,7 @@ export default function AnnualRegistration() {
           width={50}
           height={90}
           className={`${styles.annual_registration_arrow} ${styles.arrow2}`}
-          src="/medias/shapes/arrow2.svg"
+          src="/fm-yvea-landing/medias/shapes/arrow2.svg"
           alt="arrow"
         />
       </div>

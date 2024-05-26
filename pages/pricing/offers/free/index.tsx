@@ -28,7 +28,7 @@ export default function FreeOffer() {
           </p>
           <Image
             className={styles.header_cover}
-            src="/medias/free.png"
+            src="/fm-yvea-landing/medias/free.png"
             width={300}
             height={300}
             alt="free"

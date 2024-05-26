@@ -22,127 +22,63 @@ export default function Carousel() {
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/4b-group.png"
+          src="/fm-yvea-landing/medias/brands/4b-group.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/midas.png"
+          src="/fm-yvea-landing/medias/brands/midas.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/abb.png"
+          src="/fm-yvea-landing/medias/brands/abb.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/actemium.png"
+          src="/fm-yvea-landing/medias/brands/actemium.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/danube-international.png"
+          src="/fm-yvea-landing/medias/brands/danube-international.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/ksb.png"
+          src="/fm-yvea-landing/medias/brands/ksb.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/motus-africa.png"
+          src="/fm-yvea-landing/medias/brands/motus-africa.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/perenco.png"
+          src="/fm-yvea-landing/medias/brands/perenco.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/promaritime.png"
-          alt="brand"
-        />
-
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/4b-group.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/midas.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/abb.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/actemium.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/danube-international.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/ksb.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/motus-africa.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/perenco.png"
-          alt="brand"
-        />
-        <Image
-          className={styles.slide}
-          width={150}
-          height={92}
-          src="/medias/brands/promaritime.png"
+          src="/fm-yvea-landing/medias/brands/promaritime.png"
           alt="brand"
         />
 
@@ -150,63 +86,127 @@ export default function Carousel() {
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/4b-group.png"
+          src="/fm-yvea-landing/medias/brands/4b-group.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/midas.png"
+          src="/fm-yvea-landing/medias/brands/midas.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/abb.png"
+          src="/fm-yvea-landing/medias/brands/abb.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/actemium.png"
+          src="/fm-yvea-landing/medias/brands/actemium.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/danube-international.png"
+          src="/fm-yvea-landing/medias/brands/danube-international.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/ksb.png"
+          src="/fm-yvea-landing/medias/brands/ksb.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/motus-africa.png"
+          src="/fm-yvea-landing/medias/brands/motus-africa.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/perenco.png"
+          src="/fm-yvea-landing/medias/brands/perenco.png"
           alt="brand"
         />
         <Image
           className={styles.slide}
           width={150}
           height={92}
-          src="/medias/brands/promaritime.png"
+          src="/fm-yvea-landing/medias/brands/promaritime.png"
+          alt="brand"
+        />
+
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/4b-group.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/midas.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/abb.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/actemium.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/danube-international.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/ksb.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/motus-africa.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/perenco.png"
+          alt="brand"
+        />
+        <Image
+          className={styles.slide}
+          width={150}
+          height={92}
+          src="/fm-yvea-landing/medias/brands/promaritime.png"
           alt="brand"
         />
       </div>

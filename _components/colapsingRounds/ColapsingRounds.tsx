@@ -27,7 +27,7 @@ export default function ColapsingRounds() {
           <Image
             height={70}
             width={70}
-            src="/medias/icons/folder.png"
+            src="/fm-yvea-landing/medias/icons/folder.png"
             alt="round"
           />
           <h5
@@ -59,7 +59,7 @@ export default function ColapsingRounds() {
           <Image
             height={70}
             width={70}
-            src="/medias/icons/clock.png"
+            src="/fm-yvea-landing/medias/icons/clock.png"
             alt="round"
           />
           <h5
@@ -91,7 +91,7 @@ export default function ColapsingRounds() {
           <Image
             height={70}
             width={70}
-            src="/medias/icons/chart.png"
+            src="/fm-yvea-landing/medias/icons/chart.png"
             alt="round"
           />
           <h5
