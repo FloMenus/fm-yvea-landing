@@ -5,5 +5,3 @@ const nextConfig = {
     locales: ["FR", "EN"],
   },
 };
-
-// module.exports = nextConfig;
