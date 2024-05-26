@@ -3,7 +3,6 @@ import { Inter, Nunito_Sans } from "next/font/google";
 import Navbar from "../_components/navbar/Navbar";
 import Footer from "../_components/footer/Footer";
 import Head from "next/head";
-import { appWithI18Next } from "ni18n";
 import { ni18nConfig } from "../ni18n.config";
 
 const inter = Inter({ subsets: ["latin"] });
